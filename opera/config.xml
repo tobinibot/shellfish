@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" version="0.9.8" id="extensions:shellfish">
+	<name>Shellfish</name>
+	<description>Tired of all those pesky "share this article" buttons all over your Internet?  Hide them with Shellfish!</description>
+	<author href="http://open-bits.com/shellfish">Tobin Juday</author>
+	<icon width="64" height="64" src="Icon-64.png"/>
+	<icon width="18" height="18" src="Icon-18.png"/>
+	<access origin="*"/>
+</widget>
