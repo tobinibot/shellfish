@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<script>
+    // Register for the message events.
+    safari.application.addEventListener("message", handleMessage, false);
+
+    var __allowedHosts__ = [/facebook.com$/, /twitter.com$/, /addthis.com$/, /digg.com$/, /reddit.com$/,
+        /delicious.com$/, /stumbleupon.com$/];
+
+    var __shellfish__ = new Object();
+    __shellfish__['SCRIPT'] = [
+        /platform\.twitter\.com\/widgets\.js/, /* http://www.sparrowmailapp.com/ */
+        /connect\.facebook\.net/, /* http://www.sparrowmailapp.com/ */
+        /addthis\.com\/js\/\d+\/addthis_widget\.js/, /* http://www.developerit.com/2010/05/21/undefined-method-get-with-sinatra */
+        /tweetmeme\.com\/i\/scripts\/button.js/, /* http://www.goodwebpractices.com/roi/track-downloads-in-google-analytics-automatically.html */
+        /static\.ak\.fbcdn\.net\/connect\.php\/js\/FB\.Share/, /* http://nighthacks.com/roller/jag/entry/quite_the_firestorm */
+        /api\.flattr\.com\/button\/load\.js/, /* http://giorgiosironi.blogspot.com/2010/08/google-never-removed-oracle-from-its.html */
+        /sharethis\.com\/widget\/stblogger\.js/ /* http://giorgiosironi.blogspot.com/2010/08/google-never-removed-oracle-from-its.html */
+    ];
+
+    __shellfish__['IFRAME'] = [
+        /api\.tweetmeme\.com\/button\.js/, /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171 */
+        /facebook.com\/widgets\/activity\.php/ /* http://www.engadget.com/2010/12/19/yikebike-foldable-electric-bike-now-available-for-the-low-low-p/ */
+    ];
+
+    function allowContentToLoad(host, url, nodeName) {
+        // allow all resources for certain hosts
+        for (var i = 0; i < __allowedHosts__.length; i++) {
+            if (host.match(__allowedHosts__[i])) {
+                return true;
+            }
+        }
+
+        var x = __shellfish__[nodeName];
+        if (x) {
+            for (var i = 0; i < x.length; i++) {
+                if (url.match(x[i]))
+                    return false;
+            }
+        }
+
+        // Allow everything else, like stylesheets and scripts.
+        return true;
+    }
+
+    function handleMessage(event) {
+        // Switch on the message name. You should always check the message name.
+        switch (event.name) {
+            case "canLoad":
+                // Get the data from the message event.
+                var data = event.message;
+
+                // Call allowContentToLoad and store the result back on event.message
+                // so the canLoad function will return the result to the content script.
+                event.message = allowContentToLoad(data.host, data.url, data.nodeName);
+                break;
+        }
+    }
+</script>
