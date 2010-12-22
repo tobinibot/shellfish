@@ -7,22 +7,43 @@ a[href*="addthis.com/bookmark.php"], /* http://www.goodwebpractices.com/roi/trac
 
 /* Delicious */
 a[href*="del.icio.us/post"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
+a[href*="delicious.com/save"], /* http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
+a[href*="delicious.com/post"], /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/ */
 
 /* Digg */
 a[href*="digg.com/submit?"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
+
+/* DotNetKicks.com */
+a[href*="dotnetkicks.com/kick"], /* http://www.jennifer8lee.com/ */
+
+/* DotNet Shoutout */
+a[href*="dotnetshoutout.com/Submit"], /* http://www.jennifer8lee.com/ */
+
+/* DZone */
+a[href*="dzone.com/links/add.html"], /* http://www.jennifer8lee.com/ */
 
 /* Facebook */
 a[href*="facebook.com/sharer.php"], /* http://nighthacks.com/roller/jag/entry/quite_the_firestorm */
 a[href*="facebook.com/share.php"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 
+/* Google Bookmarks */
+a[href*="google.com/bookmarks/mark"], /* http://download.cnet.com/8301-2007_4-20026355-12.html */
+
+/* Google Buzz */
+a[href*="google.com/buzz/post"], /* http://www.jennifer8lee.com/ */
+
 /* Kwoff */
 a[href*="kwoff.com/submit.php"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
+
+/* LinkedIn */
+a[href*="linkedin.com/shareArticle"], /* http://www.jennifer8lee.com/ */
 
 /* Myspace */
 a[href*="myspace.com/index.cfm?fuseaction=postto"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
 
 /* Newsvine */
-a[href*="newsvine.com/_wine/save?"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
+a[href*="newsvine.com/_wine/save"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
+a[href*="newsvine.com/_tools/seed&save"], /* http://download.cnet.com/8301-2007_4-20026355-12.html */
 
 /* Reddit */
 a[href*="reddit.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
@@ -30,17 +51,27 @@ a[href*="reddit.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secr
 /* StumbleUpon */
 a[href*="stumbleupon.com/submit?"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 
+/* Technorati */
+a[href*="technorati.com/faves?add"], /* http://www.jennifer8lee.com/ */
+
 /* Twitter */
 a[href*="twitter.com/share"], /* http://www.sparrowmailapp.com/  */
 a[href*="twitter.com/home?status="], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 
+/* Yahoo Bookmarks */
+a[href*="bookmarks.yahoo.com/toolbar/savebm"], /* http://download.cnet.com/8301-2007_4-20026355-12.html */
 
+/* Yahoo Buzz */
+form[action*="buzz.yahoo.com/vote"], /* http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
+a[href*="buzz.yahoo.com/buzz"], /* http://download.cnet.com/8301-2007_4-20026355-12.html */
 /* CUSTOM */
 
 
 /* MISC */
 #socialdock, /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171&tqkw=Thanksgiving&tqshow=WN */
 .share-more, /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171&tqkw=Thanksgiving&tqshow=WN */
-.button-share /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
+.button-share, /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
+.postByline .contentTools .share /* http://download.cnet.com/8301-2007_4-20026355-12.html */
+
 
 {display: none !important;}
