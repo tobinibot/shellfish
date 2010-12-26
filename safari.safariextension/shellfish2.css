@@ -71,7 +71,8 @@ a[href*="buzz.yahoo.com/buzz"], /* http://download.cnet.com/8301-2007_4-20026355
 #socialdock, /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171&tqkw=Thanksgiving&tqshow=WN */
 .share-more, /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171&tqkw=Thanksgiving&tqshow=WN */
 .button-share, /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
-.postByline .contentTools .share /* http://download.cnet.com/8301-2007_4-20026355-12.html */
+.postByline .contentTools .share, /* http://download.cnet.com/8301-2007_4-20026355-12.html */
+#share-tools-wrapper /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
 
 
 {display: none !important;}
