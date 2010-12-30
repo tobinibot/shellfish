@@ -13,6 +13,10 @@ a[href*="delicious.com/post"], /* http://www.smashingmagazine.com/2010/12/17/25-
 /* Digg */
 a[href*="digg.com/submit?"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 
+/* Digg Digg Wordpress plugin */
+.dd_post_share, /* seen in Digg Digg source */
+#dd_ajax_float, /* http://www.todayifoundout.com/index.php/2010/12/how-the-gun-on-the-original-duck-hunt-game-worked/ */
+
 /* DotNetKicks.com */
 a[href*="dotnetkicks.com/kick"], /* http://www.jennifer8lee.com/ */
 
@@ -40,6 +44,7 @@ a[href*="linkedin.com/shareArticle"], /* http://www.jennifer8lee.com/ */
 
 /* Myspace */
 a[href*="myspace.com/index.cfm?fuseaction=postto"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
+a[href*="myspace.com/Modules/PostTo"], /* http://www.timothyallan.com/2010/11/timothy-allan-angry-birds-remix/ */
 
 /* Newsvine */
 a[href*="newsvine.com/_wine/save"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
@@ -64,6 +69,8 @@ a[href*="bookmarks.yahoo.com/toolbar/savebm"], /* http://download.cnet.com/8301-
 /* Yahoo Buzz */
 form[action*="buzz.yahoo.com/vote"], /* http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
 a[href*="buzz.yahoo.com/buzz"], /* http://download.cnet.com/8301-2007_4-20026355-12.html */
+
+
 /* CUSTOM */
 
 

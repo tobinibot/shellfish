@@ -23,7 +23,8 @@
         /reddit.com\/static\/button\/button\d\.js/, /* http://wewontfly.com/homeland-security-trolling-we-wont-fly-blog */
         /api\.tweetmeme\.com\/url_info/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
         /services\.digg\.com\/[\d\.]+\/endpoint/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
-        /api\.facebook\.com\/restserver\.php/ /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
+        /api\.facebook\.com\/restserver\.php/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
+        /wp\-content\/plugins\/sexybookmarks/ /* http://www.zerocredibility.me/?p=145 */
     ];
 
     __shellfish__['IFRAME'] = [
@@ -49,8 +50,8 @@
 
         var x = __shellfish__[nodeName];
         if (x) {
-            for (var i = 0; i < x.length; i++) {
-                if (url.match(x[i]))
+            for (var j = 0; j < x.length; j++) {
+                if (url.match(x[j]))
                     return false;
             }
         }

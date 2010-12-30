@@ -1,1 +1,3 @@
 Light Social - http://wordpress.org/extend/plugins/light-social/
+SexyBookmarks - http://wordpress.org/extend/plugins/sexybookmarks/
+Digg Digg - http://www.mkyong.com/blog/digg-digg-wordpress-plugin/
