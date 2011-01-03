@@ -1,6 +1,6 @@
 {
   "name": "Shellfish",
-  "version": "0.9.7",
+  "version": "1.0.0",
   "description": "Tired of all those pesky \"share this article\" buttons all over your Internet?  Hide them with Shellfish!",
 
   "update_url": "http://open-bits.com/shellfish/chrome-updates.xml",
@@ -9,12 +9,13 @@
            "32": "Icon-32.png",
            "48": "Icon-48.png",
           "128": "Icon-128.png" },
-  
+
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "css": ["shellfish.css"],
-      "js": ["shellfish.js"]
+      "css": ["shellfish2.css"],
+      "js": ["shellfish.js"],
+      "run_at": "document_start"
     }
   ]
 }
