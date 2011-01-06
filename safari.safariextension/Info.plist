@@ -11,23 +11,26 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.9.8</string>
+	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
-	<string>0.9.8</string>
+	<string>1.0.0</string>
 	<key>Chrome</key>
-	<dict/>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+	</dict>
 	<key>Content</key>
 	<dict>
 		<key>Scripts</key>
 		<dict>
-			<key>End</key>
+			<key>Start</key>
 			<array>
 				<string>shellfish.js</string>
 			</array>
 		</dict>
 		<key>Stylesheets</key>
 		<array>
-			<string>shellfish.css</string>
+			<string>shellfish2.css</string>
 		</array>
 	</dict>
 	<key>Description</key>
