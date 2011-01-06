@@ -19,20 +19,22 @@ __shellfish__['SCRIPT'] = [
     /api\.tweetmeme\.com\/url_info/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
     /services\.digg\.com\/[\d\.]+\/endpoint/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
     /api\.facebook\.com\/restserver\.php/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
-    /wp\-content\/plugins\/sexybookmarks/ /* http://www.zerocredibility.me/?p=145 */
+    /wp\-content\/plugins\/sexybookmarks/, /* http://www.zerocredibility.me/?p=145 */
+    /cdn\.topsy\.com\/topsy\.js/ /* http://leaverou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/ */
 ];
 
 __shellfish__['IFRAME'] = [
     /api|pro\.tweetmeme\.com\/button\.js/, /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171, http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
     /facebook\.com\/widgets\/activity\.php/, /* http://www.engadget.com/2010/12/19/yikebike-foldable-electric-bike-now-available-for-the-low-low-p/ */
     /facebook\.com\/plugins|widgets\/like\.php/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/, http://www.wired.com/epicenter/2010/12/carriers-net-neutrality-tiers/ */
-    /platform[\d+]\.twitter\.com\/widgets\/tweet_button\.html/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/ */
+    /platform[\d+]?\.twitter\.com\/widgets\/tweet_button\.html/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/, http://www.onionsportsnetwork.com/articles/tim-duncan-announces-shoe-deal-with-florsheim,18718/ */
     /yimg\.com\/b\/social_buttons/, /* http://news.yahoo.com/s/ap/20101207/ap_on_sp_co_ne/fbc_bcs_standings_mistake */
     /blogengage\.com\/evb\//, /* http://www.dragonblogger.com/firebug-google-chrome/ */
     /facebook\.com\/connect\.js/, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
     /reddit.com\/static\/button\/button\d\.html/, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
     /stumbleupon\.com\/badge\/embed/, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
-    /facebook\.com\/connect\/connect\.php/ /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
+    /facebook\.com\/connect\/connect\.php/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
+    /yimg\.com\/[a-z]\/static\/facebook_share\.html/ /* http://rivals.yahoo.com/ncaa/football/news?slug=ap-jimlitke-010511 */
 ];
 
 function allowContentToLoad(host, url, nodeName) {
