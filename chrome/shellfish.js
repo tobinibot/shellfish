@@ -20,7 +20,8 @@ __shellfish__['SCRIPT'] = [
     /services\.digg\.com\/[\d\.]+\/endpoint/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
     /api\.facebook\.com\/restserver\.php/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
     /wp\-content\/plugins\/sexybookmarks/, /* http://www.zerocredibility.me/?p=145 */
-    /cdn\.topsy\.com\/topsy\.js/ /* http://leaverou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/ */
+    /cdn\.topsy\.com\/topsy\.js/, /* http://leaverou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/ */
+    /sharethis\.com\/widget/ /* http://www.experiencecolumbus.com/blog/?p=6196 */
 ];
 
 __shellfish__['IFRAME'] = [
