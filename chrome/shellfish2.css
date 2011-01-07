@@ -5,6 +5,9 @@
 a[href*="addthis.com/bookmark.php"], /* http://www.goodwebpractices.com/roi/track-downloads-in-google-analytics-automatically.html */
 *[class^="addthis_button"], /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171&tqkw=Thanksgiving&tqshow=WN */
 
+/* AOL Lifestream */
+a[href*="lifestream.aol.com/share"], /*  http://www.tuaw.com/2011/01/06/mac-app-store-by-the-numbers-almost-1-000-apps-on-day-one/ */
+
 /* Delicious */
 a[href*="del.icio.us/post"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 a[href*="delicious.com/save"], /* http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
@@ -83,6 +86,13 @@ a[href*="buzz.yahoo.com/submit"], /* http://weburbanist.com/2010/12/29/stop-look
 .button-share, /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
 .postByline .contentTools .share, /* http://download.cnet.com/8301-2007_4-20026355-12.html */
 #share-tools-wrapper, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
-.share_tools li.last /* http://www.onionsportsnetwork.com/articles/tim-duncan-announces-shoe-deal-with-florsheim,18718/ */
+.share_tools li.last, /* http://www.onionsportsnetwork.com/articles/tim-duncan-announces-shoe-deal-with-florsheim,18718/ */
+.posterous_retweet_widget, /* http://benjaminmayo.posterous.com/microusb-vs-the-30-pins */
+.entry-tools li.share, /* http://dealbook.nytimes.com/2011/01/06/s-e-c-questions-goldman-on-offering/ */
 
+/* http://www.huffingtonpost.com/2011/01/06/two-house-republicans-vot_n_805423.html */
+#digg_chick, #twit_chick,
+.badge_v2_facebook_ipad_app,
+.badge_v2_retweet_ipad_app,
+.fb_like_button_container
 {display: none !important;}
