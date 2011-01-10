@@ -21,7 +21,10 @@ __shellfish__['SCRIPT'] = [
     /api\.facebook\.com\/restserver\.php/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
     /wp\-content\/plugins\/sexybookmarks/, /* http://www.zerocredibility.me/?p=145 */
     /cdn\.topsy\.com\/topsy\.js/, /* http://leaverou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/ */
-    /sharethis\.com\/widget/ /* http://www.experiencecolumbus.com/blog/?p=6196 */
+    /sharethis\.com\/widget/, /* http://www.experiencecolumbus.com/blog/?p=6196 */
+    /static\.addtoany\.com\/menu\/page\.js/, /* http://arstechnica.com/apple/news/2011/01/verizon-sends-event-invitation-net-flies-into-verizon-iphone-flurry.ars */
+    /widgets\.dzone\.com\/widgets/, /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
+    /reddit\.com\/button\.js/ /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
 ];
 
 __shellfish__['IFRAME'] = [

@@ -5,6 +5,9 @@
 a[href*="addthis.com/bookmark.php"], /* http://www.goodwebpractices.com/roi/track-downloads-in-google-analytics-automatically.html */
 *[class^="addthis_button"], /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171&tqkw=Thanksgiving&tqshow=WN */
 
+/* AddToAny */
+a[href*="addtoany.com/share_save"], /* http://arstechnica.com/apple/news/2011/01/verizon-sends-event-invitation-net-flies-into-verizon-iphone-flurry.ars */
+
 /* AOL Lifestream */
 a[href*="lifestream.aol.com/share"], /*  http://www.tuaw.com/2011/01/06/mac-app-store-by-the-numbers-almost-1-000-apps-on-day-one/ */
 
@@ -38,6 +41,7 @@ a[href*="google.com/bookmarks/mark"], /* http://download.cnet.com/8301-2007_4-20
 
 /* Google Buzz */
 a[href*="google.com/buzz/post"], /* http://www.jennifer8lee.com/ */
+a[onclick*="google.com/buzz/post"], /* http://voices.washingtonpost.com/44/2011/01/jared-loughners-behavior-recor.html */
 
 /* Kwoff */
 a[href*="kwoff.com/submit.php"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
@@ -52,9 +56,15 @@ a[href*="mixx.com/submit"], /* http://weburbanist.com/2010/12/29/stop-look-and-l
 a[href*="myspace.com/index.cfm?fuseaction=postto"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
 a[href*="myspace.com/Modules/PostTo"], /* http://www.timothyallan.com/2010/11/timothy-allan-angry-birds-remix/ */
 
+/* Newsider (GERMAN) */
+a[href*="newsider.de/submit.php"], /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
+
+/* Newstube (GERMAN) */
+a[href*="newstube.de/submit.php"], /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
+
 /* Newsvine */
 a[href*="newsvine.com/_wine/save"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
-a[href*="newsvine.com/_tools/seed&save"], /* http://download.cnet.com/8301-2007_4-20026355-12.html */
+a[href*="newsvine.com/_tools/seed"], /* http://download.cnet.com/8301-2007_4-20026355-12.html, http://getsatisfaction.com/sparrow/topics/check_for_update_not_working_consistently */
 
 /* Reddit */
 a[href*="reddit.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
@@ -64,10 +74,14 @@ a[href*="stumbleupon.com/submit?"], /* http://my.opera.com/dbloom/blog/2009/09/0
 
 /* Technorati */
 a[href*="technorati.com/faves?add"], /* http://www.jennifer8lee.com/ */
+a[href*="technorati.com/search"], /* http://voices.washingtonpost.com/44/2011/01/jared-loughners-behavior-recor.html */
 
 /* Twitter */
 a[href*="twitter.com/share"], /* http://www.sparrowmailapp.com/  */
 a[href*="twitter.com/home?status="], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
+
+/* Webnews (GERMAN) */
+a[href*="webnews.de/einstellen"], /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
 
 /* Yahoo Bookmarks */
 a[href*="bookmarks.yahoo.com/toolbar/savebm"], /* http://download.cnet.com/8301-2007_4-20026355-12.html */
@@ -76,6 +90,9 @@ a[href*="bookmarks.yahoo.com/toolbar/savebm"], /* http://download.cnet.com/8301-
 form[action*="buzz.yahoo.com/vote"], /* http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
 a[href*="buzz.yahoo.com/buzz"], /* http://download.cnet.com/8301-2007_4-20026355-12.html */
 a[href*="buzz.yahoo.com/submit"], /* http://weburbanist.com/2010/12/29/stop-look-and-love-8-redesigns-of-classic-traffic-lights/ */
+
+/* Yigg (GERMAN) */
+a[href*="yigg.de/neu"], /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
 
 /* CUSTOM */
 
@@ -88,11 +105,22 @@ a[href*="buzz.yahoo.com/submit"], /* http://weburbanist.com/2010/12/29/stop-look
 #share-tools-wrapper, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
 .share_tools li.last, /* http://www.onionsportsnetwork.com/articles/tim-duncan-announces-shoe-deal-with-florsheim,18718/ */
 .posterous_retweet_widget, /* http://benjaminmayo.posterous.com/microusb-vs-the-30-pins */
-.entry-tools li.share, /* http://dealbook.nytimes.com/2011/01/06/s-e-c-questions-goldman-on-offering/ */
+.share-reddit, .share-facebook /* http://weblog.therealadam.com/2010/12/21/four-odes-to-amazon-prime/ */
 
+/* New York Times */
+.entry-tools li.share, /* http://dealbook.nytimes.com/2011/01/06/s-e-c-questions-goldman-on-offering/ */
+.entry-tools li#twitter_item, /* http://artsbeat.blogs.nytimes.com/2011/01/07/the-week-in-ted-williams-so-far */
+.entry-tools li.timespeople_btn_recommend, /* http://artsbeat.blogs.nytimes.com/2011/01/07/the-week-in-ted-williams-so-far */
+#commentsWell #readerComments .feedback, /* http://artsbeat.blogs.nytimes.com/2011/01/07/the-week-in-ted-williams-so-far */
+.shareButton, /* http://artsbeat.blogs.nytimes.com/2011/01/07/the-week-in-ted-williams-so-far */
+ul.toolsList #facebook_item, /* http://www.nytimes.com/2011/01/10/us/10green.html */
+ul.toolsList #twitter_item, /* http://www.nytimes.com/2011/01/10/us/10green.html */
+
+/* Huffinton Post */
 /* http://www.huffingtonpost.com/2011/01/06/two-house-republicans-vot_n_805423.html */
 #digg_chick, #twit_chick,
 .badge_v2_facebook_ipad_app,
 .badge_v2_retweet_ipad_app,
 .fb_like_button_container
+
 {display: none !important;}
