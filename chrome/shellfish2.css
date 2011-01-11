@@ -49,6 +49,9 @@ a[href*="delicious.com/post"], /* http://www.smashingmagazine.com/2010/12/17/25-
 /* Digg */
 a[href*="digg.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 
+/* Diggita (ITALIAN) */
+a[href*="diggita.it/submit"], /* sociable code */
+
 /* Digg Digg Wordpress plugin */
 .dd_post_share, /* seen in Digg Digg source */
 #dd_ajax_float, /* http://www.todayifoundout.com/index.php/2010/12/how-the-gun-on-the-original-duck-hunt-game-worked/ */
@@ -127,6 +130,9 @@ a[href*="kwoff.com/submit.php"], /* http://www.theaustralian.com.au/news/world/l
 /* Laaik (INDONESIAN) */
 a[href*="laaik.it/NewStoryCompact.aspx"], /* sociable code */
 
+/* LaTafanera (CATALANESE) */
+a[href*="latafanera.cat/submit"], /* sociable code */
+
 /* LinkaGoGo */
 a[href*="linkagogo.com/go/AddNoPopup"], /* sociable code */
 
@@ -139,14 +145,46 @@ a[href*="linkedin.com/shareArticle"], /* http://www.jennifer8lee.com/ */
 /* Linkter (HUNGARIAN) */
 a[href*="linkter.hu/index.php?action=suggest"], /* sociable code */
 
-/*HERE!!!!!!*/
+/* Meneame (SPANISH) */
+a[href*="meneame.net/submit"], /* sociable code */
+
+/* Microsoft Live */
+a[href*="favorites.live.com/quickadd.aspx"], /* sociable code */
+
+/* Mister Wong */
+a[href*="mister-wong.com/addurl"], /* sociable code */
+
+/* Mister Wong (GERMAN) */
+a[href*="mister-wong.de/addurl"], /* sociable code */
 
 /* Mixx */
 a[href*="mixx.com/submit"], /* http://weburbanist.com/2010/12/29/stop-look-and-love-8-redesigns-of-classic-traffic-lights/ */
 
+/* MOB */
+a[href*="mob.com/share.php"], /* sociable code */
+
+/* MSNReporter */
+a[href*="reporter.nl.msn.com/?fn=contribute"], /* sociable code */
+a[href*="reporter.es.msn.com/?fn=contribute"], /* sociable code */
+
+/* Muti */
+a[href*="muti.co.za/submit"], /* sociable code */
+
+/* MyShare (CHINESE) */
+a[href*="myshare.url.com.tw/index.php?func=newurl"], /* sociable code */
+
 /* Myspace */
 a[href*="myspace.com/index.cfm?fuseaction=postto"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
 a[href*="myspace.com/Modules/PostTo"], /* http://www.timothyallan.com/2010/11/timothy-allan-angry-birds-remix/ */
+
+/* N4G */
+a[href*="n4g.com/tips.aspx"], /* sociable code */
+
+/* Netvibes */
+a[href*="netvibes.com/share"], /* sociable code */
+
+/* Netvouz */
+a[href*="netvouz.com/action/submitBookmark"], /* sociable code */
 
 /* Newsider (GERMAN) */
 a[href*="newsider.de/submit.php"], /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
@@ -158,8 +196,41 @@ a[href*="newstube.de/submit.php"], /* http://www.canoo.com/blog/2011/01/10/intel
 a[href*="newsvine.com/_wine/save"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
 a[href*="newsvine.com/_tools/seed"], /* http://download.cnet.com/8301-2007_4-20026355-12.html, http://getsatisfaction.com/sparrow/topics/check_for_update_not_working_consistently */
 
+/* Nujij (DUTCH) */
+a[href*="nujij.nl/jij.lynkx"], /* sociable code */
+
+/* Ping.fm */
+a[href*="ping.fm/ref/?link"], /* sociable code */
+
+/* Posterous */
+a[href*="posterous.com/share"], /* sociable code */
+
+/* Propellor (DUTCH) */
+a[href*="propeller.com/submit"], /* sociable code */
+
 /* Reddit */
 a[href*="reddit.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
+
+/* Scoopio (FRENCH) */
+a[href*="scoopeo.com/scoop/new"], /* sociable code */
+
+/* Segnalo (ITALIAN) */
+a[href*="segnalo.alice.it/post.html"], /* sociable code */
+
+/* SheToldMe */
+a[href*="shetoldme.com/publish"], /* sociable code */
+
+/* Simpy */
+a[href*="simpy.com/simpy/LinkAdd"], /* sociable code */
+
+/* Slashdot */
+a[href*="slashdot.org/bookmark.pl"], /* sociable code */
+
+/* Sociable */
+.sociable, /* sociable code */
+
+/* Sphinn */
+a[href*="sphinn.com/index.php?c"], /* sociable code */
 
 /* StumbleUpon */
 a[href*="stumbleupon.com/submit?"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
@@ -168,13 +239,52 @@ a[href*="stumbleupon.com/submit?"], /* http://my.opera.com/dbloom/blog/2009/09/0
 a[href*="technorati.com/faves?add"], /* http://www.jennifer8lee.com/ */
 a[href*="technorati.com/search"], /* http://voices.washingtonpost.com/44/2011/01/jared-loughners-behavior-recor.html */
 
+/* ThisNext */
+a[href*="thisnext.com/pick/new/submit"], /* sociable code */
+
+/* Tipd */
+a[href*="tipd.com/submit"], /* sociable code */
+
+/* Tumblr */
+a[href*="tumblr.com/share"], /* sociable code */
+
 /* Twitter */
 a[href*="twitter.com/share"], /* http://www.sparrowmailapp.com/  */
 a[href*="twitter.com/home?status="], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 a[href*="twitter.com/home/?status="], /* http://www.bgr.com/2011/01/10/why-im-not-switching-to-the-verizon-iphone */
 
+/* Upnews (ITALIAN) */
+a[href*="upnews.it/submit"], /* sociable code */
+
+/* Via6 (PORTUGUESE) */
+a[href*="rec6.via6.com/link.php"], /* sociable code */
+
+/* Viadeo (FRENCH) */
+a[href*="viadeo.com/shareit"], /* sociable code */
+
 /* Webnews (GERMAN) */
 a[href*="webnews.de/einstellen"], /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
+
+/* Webride */
+a[href*="webride.org/discuss/split.php"], /* sociable code */
+
+/* Wikio */
+a[href*="wikio.com/vote"], /* sociable code */
+
+/* Wikio (FRENCH) */
+a[href*="wikio.fr/vote"], /* sociable code */
+
+/* Wikio (ITALIAN) */
+a[href*="wikio.it/vote"], /* sociable code */
+
+/* Wists */
+a[href*="wists.com/s.php?c"], /* sociable code */
+
+/* Wykop (POLISH) */
+a[href*="wykop.pl/dodai"], /* sociable code */
+
+/* Xerpi */
+a[href*="xerpi.com/block/add_link"], /* sociable code */
 
 /* Yahoo Bookmarks */
 a[href*="bookmarks.yahoo.com/toolbar/savebm"], /* http://download.cnet.com/8301-2007_4-20026355-12.html */
@@ -186,6 +296,12 @@ a[href*="buzz.yahoo.com/submit"], /* http://weburbanist.com/2010/12/29/stop-look
 
 /* Yigg (GERMAN) */
 a[href*="yigg.de/neu"], /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
+
+/* 豆瓣 (CHINESE) */
+a[href*="douban.com/recommend"], /* sociable code */
+
+/* QQ书签 (CHINESE) */
+a[href*="shuqian.qq.com/post"], /* sociable code */
 
 /* CUSTOM */
 
@@ -201,7 +317,8 @@ a[href*="blogger.com/share-post"], /* http://www.gogolian.com/ */
 .share_tools li.last, /* http://www.onionsportsnetwork.com/articles/tim-duncan-announces-shoe-deal-with-florsheim,18718/ */
 .posterous_retweet_widget, /* http://benjaminmayo.posterous.com/microusb-vs-the-30-pins */
 .share-reddit, .share-facebook, /* http://weblog.therealadam.com/2010/12/21/four-odes-to-amazon-prime/ */
-.post-tweet, .post-fb   , /* http://www.bgr.com/2011/01/10/why-im-not-switching-to-the-verizon-iphone/ */
+.post-tweet, .post-fb, /* http://www.bgr.com/2011/01/10/why-im-not-switching-to-the-verizon-iphone/ */
+a[href*="nujij.nl/Retweet.lynkx"], /* http://www.nujij.nl/jordan-carver-glamour-en-lingerie-model.10966867.lynkx */
 
 /* New York Times */
 .entry-tools li.share, /* http://dealbook.nytimes.com/2011/01/06/s-e-c-questions-goldman-on-offering/ */
