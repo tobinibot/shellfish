@@ -108,7 +108,8 @@ a[href*="blogger.com/share-post"], /* http://www.gogolian.com/ */
 #share-tools-wrapper, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
 .share_tools li.last, /* http://www.onionsportsnetwork.com/articles/tim-duncan-announces-shoe-deal-with-florsheim,18718/ */
 .posterous_retweet_widget, /* http://benjaminmayo.posterous.com/microusb-vs-the-30-pins */
-.share-reddit, .share-facebook /* http://weblog.therealadam.com/2010/12/21/four-odes-to-amazon-prime/ */
+.share-reddit, .share-facebook, /* http://weblog.therealadam.com/2010/12/21/four-odes-to-amazon-prime/ */
+.post-tweet, .post-fb   , /* http://www.bgr.com/2011/01/10/why-im-not-switching-to-the-verizon-iphone/ */
 
 /* New York Times */
 .entry-tools li.share, /* http://dealbook.nytimes.com/2011/01/06/s-e-c-questions-goldman-on-offering/ */
