@@ -7,14 +7,14 @@ __shellfish__['SCRIPT'] = [
     /connect\.facebook\.net/, /* http://www.sparrowmailapp.com/ */
     /addthis\.com\/js\/\d+\/addthis_widget\.js/, /* http://www.developerit.com/2010/05/21/undefined-method-get-with-sinatra */
     /tweetmeme\.com\/i\/scripts\/button.js/, /* http://www.goodwebpractices.com/roi/track-downloads-in-google-analytics-automatically.html */
-    /static\.ak\.fbcdn\.net\/connect\.php\/js\/FB\.Share/, /* http://nighthacks.com/roller/jag/entry/quite_the_firestorm */
+    /fbcdn\.net\/connect\.php\/js\/FB\.Share/, /* http://nighthacks.com/roller/jag/entry/quite_the_firestorm */
     /api\.flattr\.com\/button\/load\.js/, /* http://giorgiosironi.blogspot.com/2010/08/google-never-removed-oracle-from-its.html */
     /sharethis\.com\/widget\/stblogger\.js/, /* http://giorgiosironi.blogspot.com/2010/08/google-never-removed-oracle-from-its.html */
     /widgets\.digg\.com\/buttons\.js/, /* http://download.cnet.com/8301-2007_4-20026355-12.html */
     /stumbleupon\.com\/hostedbadge\.php/, /* http://www.dragonblogger.com/firebug-google-chrome/ */
     /google\.com\/buzz\/api\/button\.js/, /* http://www.dragonblogger.com/firebug-google-chrome/ */
     /blogengage\.com\/evb\//, /* http://www.dragonblogger.com/firebug-google-chrome/ */
-    /facebook\.com\/connect\.js/, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
+    /facebook\.com\/connect\.(?:js|php)/, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
     /reddit.com\/static\/button\/button\d\.js/, /* http://wewontfly.com/homeland-security-trolling-we-wont-fly-blog */
     /api\.tweetmeme\.com\/url_info/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
     /services\.digg\.com\/[\d\.]+\/endpoint/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
@@ -24,16 +24,17 @@ __shellfish__['SCRIPT'] = [
     /sharethis\.com\/widget/, /* http://www.experiencecolumbus.com/blog/?p=6196 */
     /static\.addtoany\.com\/menu\/page\.js/, /* http://arstechnica.com/apple/news/2011/01/verizon-sends-event-invitation-net-flies-into-verizon-iphone-flurry.ars */
     /widgets\.dzone\.com\/widgets/, /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
-    /reddit\.com\/button\.js/ /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
+    /reddit\.com\/button\.js/, /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
+    /digg\.com\/tools\/diggthis\.js/ /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
 ];
 
 __shellfish__['IFRAME'] = [
-    /api|pro\.tweetmeme\.com\/button\.js/, /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171, http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
+    /(?:api|pro)\.tweetmeme\.com\/button\.js/, /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171, http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
     /facebook\.com\/widgets\/activity\.php/, /* http://www.engadget.com/2010/12/19/yikebike-foldable-electric-bike-now-available-for-the-low-low-p/ */
-    /facebook\.com\/plugins|widgets\/like\.php/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/, http://www.wired.com/epicenter/2010/12/carriers-net-neutrality-tiers/ */
+    /facebook\.com\/(?:plugins|widgets)\/like\.php/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/, http://www.wired.com/epicenter/2010/12/carriers-net-neutrality-tiers/ */
     /platform[\d+]?\.twitter\.com\/widgets\/tweet_button\.html/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/, http://www.onionsportsnetwork.com/articles/tim-duncan-announces-shoe-deal-with-florsheim,18718/ */
     /yimg\.com\/b\/social_buttons/, /* http://news.yahoo.com/s/ap/20101207/ap_on_sp_co_ne/fbc_bcs_standings_mistake */
-    /blogengage\.com\/evb\//, /* http://www.dragonblogger.com/firebug-google-chrome/ */
+    /blogengage\.com\/evb/, /* http://www.dragonblogger.com/firebug-google-chrome/ */
     /facebook\.com\/connect\.js/, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
     /reddit.com\/static\/button\/button\d\.html/, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
     /stumbleupon\.com\/badge\/embed/, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
