@@ -79,6 +79,7 @@ a[href*="technorati.com/search"], /* http://voices.washingtonpost.com/44/2011/01
 /* Twitter */
 a[href*="twitter.com/share"], /* http://www.sparrowmailapp.com/  */
 a[href*="twitter.com/home?status="], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
+a[href*="twitter.com/home/?status="], /* http://www.bgr.com/2011/01/10/why-im-not-switching-to-the-verizon-iphone */
 
 /* Webnews (GERMAN) */
 a[href*="webnews.de/einstellen"], /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
