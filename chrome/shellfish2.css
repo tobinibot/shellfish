@@ -11,6 +11,9 @@ a[href*="addtoany.com/share_save"], /* http://arstechnica.com/apple/news/2011/01
 /* AOL Lifestream */
 a[href*="lifestream.aol.com/share"], /*  http://www.tuaw.com/2011/01/06/mac-app-store-by-the-numbers-almost-1-000-apps-on-day-one/ */
 
+/* Awe.sm */
+a[href*="api.awe.sm/url/share"], /* http://bagcheck.com/bag/6261-twitter-toolkit */
+
 /* Barropunto (SPANISH) */
 a[href*="barrapunto.com/submit"], /* sociable code */
 
@@ -48,6 +51,7 @@ a[href*="delicious.com/post"], /* http://www.smashingmagazine.com/2010/12/17/25-
 
 /* Digg */
 a[href*="digg.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
+*[onclick*="digg.com/submit"], /* http://imgur.com/Qmc11 */
 
 /* Diggita (ITALIAN) */
 a[href*="diggita.it/submit"], /* sociable code */
@@ -74,9 +78,11 @@ a[href*="ekudos.nl/artikel/nieuw"], /* sociable code */
 /* Facebook */
 a[href*="facebook.com/sharer.php"], /* http://nighthacks.com/roller/jag/entry/quite_the_firestorm */
 a[href*="facebook.com/share.php"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
+*[onclick*="facebook.com/sharer.php"], /* http://imgur.com/Qmc11 */
 
 /* Fark */
-a[href*="cgi.fark.com/cgi/fark/farkit.pl"], /* sociable code */
+a[href*="fark.com/cgi/fark/farkit.pl"], /* sociable code */
+a[href*="fark.com/cgi/farkit.pl"], /* http://www.talkingpointsmemo.com/archives/2011/01/they_just_dont_stop.php */
 
 /* Faves */
 a[href*="faves.com/Authoring.aspx"], /* sociable code */
@@ -96,6 +102,9 @@ a[href*="google.com/bookmarks/mark"], /* http://download.cnet.com/8301-2007_4-20
 /* Google Buzz */
 a[href*="google.com/buzz/post"], /* http://www.jennifer8lee.com/ */
 a[onclick*="google.com/buzz/post"], /* http://voices.washingtonpost.com/44/2011/01/jared-loughners-behavior-recor.html */
+
+/* Google Reader */
+a[href*="google.com/reader/link"], /* http://www.businessinsider.com/aol-michael-arrington-2011-1 */
 
 /* Gwar (POLISH) */
 a[href*="gwar.pl/DodajGwar.html"], /* sociable code */
@@ -207,10 +216,11 @@ a[href*="posterous.com/share"], /* sociable code */
 
 /* Propellor (DUTCH) */
 a[href*="propeller.com/submit"], /* sociable code */
+a[href*="propeller.com/story/submit"], /* http://www.usatoday.com/news/health/2010-07-27-sitting-death_N.htm */
 
 /* Reddit */
 a[href*="reddit.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
-
+*[onclick*="reddit.com/submit"], /* http://imgur.com/Qmc11 */
 /* Scoopio (FRENCH) */
 a[href*="scoopeo.com/scoop/new"], /* sociable code */
 
@@ -223,6 +233,9 @@ a[href*="shetoldme.com/publish"], /* sociable code */
 /* Simpy */
 a[href*="simpy.com/simpy/LinkAdd"], /* sociable code */
 
+/* ShareThis */
+.stbutton, /* http://www.wired.com/magazine/2010/12/ff_collarbomb/all/1 */
+
 /* Slashdot */
 a[href*="slashdot.org/bookmark.pl"], /* sociable code */
 
@@ -233,7 +246,8 @@ a[href*="slashdot.org/bookmark.pl"], /* sociable code */
 a[href*="sphinn.com/index.php?c"], /* sociable code */
 
 /* StumbleUpon */
-a[href*="stumbleupon.com/submit?"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
+a[href*="stumbleupon.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
+*[onclick*="stumbleupon.com/submit"], /* http://imgur.com/Qmc11 */
 
 /* Technorati */
 a[href*="technorati.com/faves?add"], /* http://www.jennifer8lee.com/ */
@@ -252,6 +266,9 @@ a[href*="tumblr.com/share"], /* sociable code */
 a[href*="twitter.com/share"], /* http://www.sparrowmailapp.com/  */
 a[href*="twitter.com/home?status="], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 a[href*="twitter.com/home/?status="], /* http://www.bgr.com/2011/01/10/why-im-not-switching-to-the-verizon-iphone */
+a[href*="twitter.com/share"], /* http://www.macworld.com/article/156720/2011/01/gps.html */
+a[href*="twitter.com/?status"], /* http://www.sportspickle.com/picture/4755/comcast-sportsnet-gives-us-the-stats-we-really-want */
+*[onclick*="twitter.com/share"], /* http://imgur.com/Qmc11 */
 
 /* Upnews (ITALIAN) */
 a[href*="upnews.it/submit"], /* sociable code */
@@ -293,6 +310,7 @@ a[href*="bookmarks.yahoo.com/toolbar/savebm"], /* http://download.cnet.com/8301-
 form[action*="buzz.yahoo.com/vote"], /* http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
 a[href*="buzz.yahoo.com/buzz"], /* http://download.cnet.com/8301-2007_4-20026355-12.html */
 a[href*="buzz.yahoo.com/submit"], /* http://weburbanist.com/2010/12/29/stop-look-and-love-8-redesigns-of-classic-traffic-lights/ */
+a[href*="buzz.yahoo.com/article"], /* http://current.com/shows/this-american-life/92883564_ira-glass-on-bringing-radio-to-tv.htm */
 
 /* Yigg (GERMAN) */
 a[href*="yigg.de/neu"], /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
@@ -319,6 +337,18 @@ a[href*="blogger.com/share-post"], /* http://www.gogolian.com/ */
 .share-reddit, .share-facebook, /* http://weblog.therealadam.com/2010/12/21/four-odes-to-amazon-prime/ */
 .post-tweet, .post-fb, /* http://www.bgr.com/2011/01/10/why-im-not-switching-to-the-verizon-iphone/ */
 a[href*="nujij.nl/Retweet.lynkx"], /* http://www.nujij.nl/jordan-carver-glamour-en-lingerie-model.10966867.lynkx */
+.boost-btn, /* http://www.buzzfeed.com/darthvader/star-wars-super-bowl-poster-1d1i */
+#social-actions, /* http://www.buzzfeed.com/darthvader/star-wars-super-bowl-poster-1d1i */
+a[href*="talkingpointsmemo.com/twitter_share.php"], /* http://www.talkingpointsmemo.com/archives/2011/01/they_just_dont_stop.php */
+.tools-recommend, /* http://www.slate.com/id/2281146 */
+#share_popout, /* http://blog.okcupid.com/index.php/the-mathematics-of-beauty/ */
+#socialmedia, /* http://gif.mocksession.com/2011/01/youdroppedit/ */
+.socialList, .socialContainer, /* http://www.usatoday.com/news/health/2010-07-27-sitting-death_N.htm */
+#ndmFeatures, /* http://www.businesswire.com/news/home/20110117005471/en/Apple-Media-Advisory */
+.st_sharethis_custom, /* http://imgur.com/Qmc11 */
+li.aToolUnit.share, /* http://online.wsj.com/article/SB10001424052748704029704576088091711588606.html */
+li.aToolUnit.aToolType-social, /* http://online.wsj.com/article/SB10001424052748704029704576088091711588606.html */
+.st_sharethis, /* http://mashable.com/2011/01/17/banksy-identity-ebay */
 
 /* New York Times */
 .entry-tools li.share, /* http://dealbook.nytimes.com/2011/01/06/s-e-c-questions-goldman-on-offering/ */

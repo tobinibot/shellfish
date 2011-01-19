@@ -25,13 +25,22 @@ __shellfish__['SCRIPT'] = [
     /static\.addtoany\.com\/menu\/page\.js/, /* http://arstechnica.com/apple/news/2011/01/verizon-sends-event-invitation-net-flies-into-verizon-iphone-flurry.ars */
     /widgets\.dzone\.com\/widgets/, /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
     /reddit\.com\/button\.js/, /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
-    /digg\.com\/tools\/diggthis\.js/ /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
+    /digg\.com\/tools\/diggthis\.js/, /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
+    /widgets\.surphace\.com\/widgets/, /* http://tmz.com */
+    /surphace\.com\/rcwidget\/loader.js/, /* http://tmz.com */
+    /buzzfeed\.com\/wd\/BuzzBox/, /* http://tmz.com, http://www.businessinsider.com/aol-michael-arrington-2011-1 */
+    /cim.meebo.com\/cim/, /* http://tmz.com */
+    /platform\.linkedin\.com\/in\.js/, /* http://www.businessinsider.com/aol-michael-arrington-2011-1 */
+    /tweetup\.com\/twidget/, /* http://www.businessinsider.com/aol-michael-arrington-2011-1 */
+    /postup\.com\/twidget/, /* just guessing, tweetup == postup */
+    /apture\.com\/js\/apture\.js/, /* http://www.economist.com/blogs/babbage/2011/01/anti-piracy_laser */
+    /prettydigg\/diggbutton\.js/, /* http://www.talkingpointsmemo.com/archives/2011/01/they_just_dont_stop.php */
+    /sharethis\.com\/button\/(?:buttons|sharethis)\.js/ /* http://imgur.com/Qmc11, http://mashable.com/2011/01/17/banksy-identity-ebay */
 ];
 
 __shellfish__['IFRAME'] = [
     /(?:api|pro)\.tweetmeme\.com\/button\.js/, /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171, http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
-    /facebook\.com\/widgets\/activity\.php/, /* http://www.engadget.com/2010/12/19/yikebike-foldable-electric-bike-now-available-for-the-low-low-p/ */
-    /facebook\.com\/(?:plugins|widgets)\/like\.php/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/, http://www.wired.com/epicenter/2010/12/carriers-net-neutrality-tiers/ */
+    /facebook\.com\/(?:plugins|widgets)\/(?:activity|like|likebox)\.php/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/, http://www.wired.com/epicenter/2010/12/carriers-net-neutrality-tiers/, http://www.slate.com/id/2281146, http://www.engadget.com/2010/12/19/yikebike-foldable-electric-bike-now-available-for-the-low-low-p/ */
     /platform[\d+]?\.twitter\.com\/widgets\/tweet_button\.html/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/, http://www.onionsportsnetwork.com/articles/tim-duncan-announces-shoe-deal-with-florsheim,18718/ */
     /yimg\.com\/b\/social_buttons/, /* http://news.yahoo.com/s/ap/20101207/ap_on_sp_co_ne/fbc_bcs_standings_mistake */
     /blogengage\.com\/evb/, /* http://www.dragonblogger.com/firebug-google-chrome/ */
@@ -39,7 +48,10 @@ __shellfish__['IFRAME'] = [
     /reddit.com\/static\/button\/button\d\.html/, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
     /stumbleupon\.com\/badge\/embed/, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
     /facebook\.com\/connect\/connect\.php/, /* http://www.chicagonow.com/blogs/daily-chicago-sports-tab/2010/12/jim-tressel-leaving-ohio-state.html */
-    /yimg\.com\/[a-z]\/static\/facebook_share\.html/ /* http://rivals.yahoo.com/ncaa/football/news?slug=ap-jimlitke-010511 */
+    /yimg\.com\/[a-z]\/static\/facebook_share\.html/, /* http://rivals.yahoo.com/ncaa/football/news?slug=ap-jimlitke-010511 */
+    /addthis.com\/static/, /* http://tmz.com */
+    /tools\.awe\.sm\/tweet-button\/files\/tweet_button\.html/, /* http://www.buzzfeed.com/darthvader/star-wars-super-bowl-poster-1d1i */
+    /okcupid\.com\/twitter\?blogurl/ /* http://blog.okcupid.com/index.php/the-mathematics-of-beauty/ */
 ];
 
 function allowContentToLoad(host, url, nodeName) {
