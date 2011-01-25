@@ -51,7 +51,8 @@ __shellfish__['IFRAME'] = [
     /yimg\.com\/[a-z]\/static\/facebook_share\.html/, /* http://rivals.yahoo.com/ncaa/football/news?slug=ap-jimlitke-010511 */
     /addthis.com\/static/, /* http://tmz.com */
     /tools\.awe\.sm\/tweet-button\/files\/tweet_button\.html/, /* http://www.buzzfeed.com/darthvader/star-wars-super-bowl-poster-1d1i */
-    /okcupid\.com\/twitter\?blogurl/ /* http://blog.okcupid.com/index.php/the-mathematics-of-beauty/ */
+    /okcupid\.com\/twitter\?blogurl/, /* http://blog.okcupid.com/index.php/the-mathematics-of-beauty/ */
+    /sfgate\.com\/js\/utils\/facebook_load\.html/ /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
 ];
 
 function allowContentToLoad(host, url, nodeName) {

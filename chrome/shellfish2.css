@@ -349,6 +349,9 @@ a[href*="talkingpointsmemo.com/twitter_share.php"], /* http://www.talkingpointsm
 li.aToolUnit.share, /* http://online.wsj.com/article/SB10001424052748704029704576088091711588606.html */
 li.aToolUnit.aToolType-social, /* http://online.wsj.com/article/SB10001424052748704029704576088091711588606.html */
 .st_sharethis, /* http://mashable.com/2011/01/17/banksy-identity-ebay */
+.facebookcontainer,/* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
+.socialtools, /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
+.tools .share, /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
 
 /* New York Times */
 .entry-tools li.share, /* http://dealbook.nytimes.com/2011/01/06/s-e-c-questions-goldman-on-offering/ */
