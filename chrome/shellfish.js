@@ -23,7 +23,7 @@ __shellfish__['SCRIPT'] = [
     /cdn\.topsy\.com\/topsy\.js/, /* http://leaverou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/ */
     /sharethis\.com\/widget/, /* http://www.experiencecolumbus.com/blog/?p=6196 */
     /static\.addtoany\.com\/menu\/page\.js/, /* http://arstechnica.com/apple/news/2011/01/verizon-sends-event-invitation-net-flies-into-verizon-iphone-flurry.ars */
-    /widgets\.dzone\.com\/widgets/, /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
+    /widgets\.dzone\.com\/(?:links\/)?widgets/, /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
     /reddit\.com\/button\.js/, /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
     /digg\.com\/tools\/diggthis\.js/, /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
     /widgets\.surphace\.com\/widgets/, /* http://tmz.com */
@@ -52,7 +52,8 @@ __shellfish__['IFRAME'] = [
     /addthis.com\/static/, /* http://tmz.com */
     /tools\.awe\.sm\/tweet-button\/files\/tweet_button\.html/, /* http://www.buzzfeed.com/darthvader/star-wars-super-bowl-poster-1d1i */
     /okcupid\.com\/twitter\?blogurl/, /* http://blog.okcupid.com/index.php/the-mathematics-of-beauty/ */
-    /sfgate\.com\/js\/utils\/facebook_load\.html/ /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
+    /sfgate\.com\/js\/utils\/facebook_load\.html/, /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
+    /media\/system\/twittertweeter\.php/ /* http://www.technewsdaily.com/jeopardy-vs-computer-how-ibms-watson-works-2161/ */
 ];
 
 function allowContentToLoad(host, url, nodeName) {

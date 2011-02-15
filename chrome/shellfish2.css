@@ -52,6 +52,7 @@ a[href*="delicious.com/post"], /* http://www.smashingmagazine.com/2010/12/17/25-
 /* Digg */
 a[href*="digg.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 *[onclick*="digg.com/submit"], /* http://imgur.com/Qmc11 */
+a[href*="digg.com/tools/diggthis/confirm"], /* http://www.technewsdaily.com/jeopardy-vs-computer-how-ibms-watson-works-2161/ */
 
 /* Diggita (ITALIAN) */
 a[href*="diggita.it/submit"], /* sociable code */
@@ -89,6 +90,7 @@ a[href*="faves.com/Authoring.aspx"], /* sociable code */
 
 /* FriendFeed */
 a[href*="friendfeed.com/share"], /* sociable code */
+a[href*="friendfeed.com/?url"], /* http://blogs.msdn.com/b/ieinternals/archive/2011/02/11/ie9-release-candidate-minor-changes-list.aspx */
 
 /* FSDaily */
 a[href*="fsdaily.com/submit"], /* sociable code */
@@ -159,6 +161,7 @@ a[href*="meneame.net/submit"], /* sociable code */
 
 /* Microsoft Live */
 a[href*="favorites.live.com/quickadd.aspx"], /* sociable code */
+a[href*="spaces.live.com/BlogIt.aspx"], /* http://blogs.msdn.com/b/ieinternals/archive/2011/02/11/ie9-release-candidate-minor-changes-list.aspx */
 
 /* Mister Wong */
 a[href*="mister-wong.com/addurl"], /* sociable code */
@@ -252,6 +255,7 @@ a[href*="stumbleupon.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02
 /* Technorati */
 a[href*="technorati.com/faves?add"], /* http://www.jennifer8lee.com/ */
 a[href*="technorati.com/search"], /* http://voices.washingtonpost.com/44/2011/01/jared-loughners-behavior-recor.html */
+a[href*="technorati.com/faves/?add"], /* http://blogs.msdn.com/b/ieinternals/archive/2011/02/11/ie9-release-candidate-minor-changes-list.aspx */
 
 /* ThisNext */
 a[href*="thisnext.com/pick/new/submit"], /* sociable code */
@@ -264,11 +268,12 @@ a[href*="tumblr.com/share"], /* sociable code */
 
 /* Twitter */
 a[href*="twitter.com/share"], /* http://www.sparrowmailapp.com/  */
-a[href*="twitter.com/home?status="], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
-a[href*="twitter.com/home/?status="], /* http://www.bgr.com/2011/01/10/why-im-not-switching-to-the-verizon-iphone */
+a[href*="twitter.com/home?status"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
+a[href*="twitter.com/home/?status"], /* http://www.bgr.com/2011/01/10/why-im-not-switching-to-the-verizon-iphone */
 a[href*="twitter.com/share"], /* http://www.macworld.com/article/156720/2011/01/gps.html */
-a[href*="twitter.com/?status"], /* http://www.sportspickle.com/picture/4755/comcast-sportsnet-gives-us-the-stats-we-really-want */
+a[href*="twitter.com/?status"], /* http://www.sportspickle.com/picture/4755/comcast-sportsnet-gives-us-the-stats-we-really-want, */
 *[onclick*="twitter.com/share"], /* http://imgur.com/Qmc11 */
+a[href*="twitter.com?status"],/* http://www.vanityfair.com/style/features/2011/01/ralph-lauren-garage-201101 */
 
 /* Upnews (ITALIAN) */
 a[href*="upnews.it/submit"], /* sociable code */
@@ -352,6 +357,18 @@ li.aToolUnit.aToolType-social, /* http://online.wsj.com/article/SB10001424052748
 .facebookcontainer,/* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
 .socialtools, /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
 .tools .share, /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
+.send-share, /* http://www.guardian.co.uk/film/2011/jan/23/orson-welles-last-film-release */
+ul.utilities.utilities-top, /* http://www.vanityfair.com/style/features/2011/01/ralph-lauren-garage-201101 */
+ul.utilities.utilities-bottom, /* http://www.vanityfair.com/style/features/2011/01/ralph-lauren-garage-201101 */
+ul.options li.t-share, ul.options li.t-facebook, ul.options li.t-twitter, ul.options li.t-vote, /* http://www.zdnet.com/blog/bott/ie9-release-candidate-review-will-microsofts-big-browser-bet-pay-off/2954 */
+.socialTools, /* http://swampland.blogs.time.com/2011/02/08/stay-classy-tsa/ */
+.ShareThisMainPanel .buttonMoreLess, /* http://blogs.msdn.com/b/ieinternals/archive/2011/02/11/ie9-release-candidate-minor-changes-list.aspx */
+.storytools .twitterTool, 
+.storytools .facebookLi, 
+.storytools .shareStoryTool,
+.storytools .recommendStoryTool, /* http://www.npr.org/2011/02/14/133697585/on-jeopardy-its-man-vs-this-machine */
+#social-vote, /* http://www.technewsdaily.com/jeopardy-vs-computer-how-ibms-watson-works-2161/ */
+.social, .social2, /* http://www.hollywoodreporter.com/news/esperanza-spalding-7-facts-grammys-99327 */
 
 /* New York Times */
 .entry-tools li.share, /* http://dealbook.nytimes.com/2011/01/06/s-e-c-questions-goldman-on-offering/ */
