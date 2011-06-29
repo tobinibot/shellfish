@@ -35,6 +35,9 @@ a[href*="cimlap.blogter.hu/index.php?action=suggest_link"], /* sociable code */
 /* Blogter (HUNGARIAN) */
 a[href*="cimlap.blogter.hu/index.php?action=suggest_link"], /* sociable code */
 
+/* Business Week */
+a[href*="bx.businessweek.com/api/add-article"], /* http://www.bloomberg.com/news/2011-03-12/facebook-will-introduce-new-service-that-sells-discount-deals.html */
+
 /* Connotea */
 a[href*="connotea.org/addpopup"], /* sociable code */
 
@@ -84,6 +87,7 @@ a[href*="facebook.com/share.php"], /* http://my.opera.com/dbloom/blog/2009/09/02
 /* Fark */
 a[href*="fark.com/cgi/fark/farkit.pl"], /* sociable code */
 a[href*="fark.com/cgi/farkit.pl"], /* http://www.talkingpointsmemo.com/archives/2011/01/they_just_dont_stop.php */
+a[href*="fark.com/cgi/submit.pl"], /* http://www.sfweekly.com/2010-08-11/news/ihelp-for-autism/ */
 
 /* Faves */
 a[href*="faves.com/Authoring.aspx"], /* sociable code */
@@ -92,8 +96,15 @@ a[href*="faves.com/Authoring.aspx"], /* sociable code */
 a[href*="friendfeed.com/share"], /* sociable code */
 a[href*="friendfeed.com/?url"], /* http://blogs.msdn.com/b/ieinternals/archive/2011/02/11/ie9-release-candidate-minor-changes-list.aspx */
 
+/* Flattr */
+a[href*="flattr.com/thing"], /* https://github.com/DanielRapp/Noisy */
+
 /* FSDaily */
 a[href*="fsdaily.com/submit"], /* sociable code */
+
+/* Designbump */
+iframe[src*="designbump.com/sites/all/moduels/drigg_external"],
+a[href*="designbump.com/submit?"], /* http://inspiredology.com/dribbbles-effect-on-the-web-industry/ */
 
 /* Global Grind */
 a[href*="globalgrind.com/submission/submit"], /* sociable code */
@@ -156,6 +167,11 @@ a[href*="linkedin.com/shareArticle"], /* http://www.jennifer8lee.com/ */
 /* Linkter (HUNGARIAN) */
 a[href*="linkter.hu/index.php?action=suggest"], /* sociable code */
 
+/* Meebo */
+.share-button-container, /* http://business.meebo.com/demo/ */
+.share-button, /* http://business.meebo.com/demo/ */
+
+
 /* Meneame (SPANISH) */
 a[href*="meneame.net/submit"], /* sociable code */
 
@@ -165,6 +181,7 @@ a[href*="spaces.live.com/BlogIt.aspx"], /* http://blogs.msdn.com/b/ieinternals/a
 
 /* Mister Wong */
 a[href*="mister-wong.com/addurl"], /* sociable code */
+a[href*="mister-wong.de/index.php?action=addurl"], /* http://www.heise.de/newsticker/meldung/Witze-Welle-erklaert-Netzwerkprotokolle-1255783.html */
 
 /* Mister Wong (GERMAN) */
 a[href*="mister-wong.de/addurl"], /* sociable code */
@@ -208,8 +225,14 @@ a[href*="newstube.de/submit.php"], /* http://www.canoo.com/blog/2011/01/10/intel
 a[href*="newsvine.com/_wine/save"], /* http://www.theaustralian.com.au/news/world/lawyers-cry-foul-over-leak-of-julian-assange-sex-case-papers/story-e6frg6so-1225973548657 */
 a[href*="newsvine.com/_tools/seed"], /* http://download.cnet.com/8301-2007_4-20026355-12.html, http://getsatisfaction.com/sparrow/topics/check_for_update_not_working_consistently */
 
+/* NowPublic */
+a[href*="view.nowpublic.com/?src="], /* http://www.dailymail.co.uk/news/article-1366395/Japan-tsunami-earthquake-Rescuers-pick-way-apocalypse-wasteland.html */
+
 /* Nujij (DUTCH) */
 a[href*="nujij.nl/jij.lynkx"], /* sociable code */
+
+/* Oneview  (GERMAN) */
+a[href*="oneview.de/add"], /* http://www.heise.de/newsticker/meldung/Witze-Welle-erklaert-Netzwerkprotokolle-1255783.html */
 
 /* Ping.fm */
 a[href*="ping.fm/ref/?link"], /* sociable code */
@@ -224,11 +247,16 @@ a[href*="propeller.com/story/submit"], /* http://www.usatoday.com/news/health/20
 /* Reddit */
 a[href*="reddit.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 *[onclick*="reddit.com/submit"], /* http://imgur.com/Qmc11 */
+a[href*="reddit.com/r/chrome/submit"], /* http://chromestory.com/2011/03/google-chromes-new-logo-now-in-the-dev-version/ */
+
 /* Scoopio (FRENCH) */
 a[href*="scoopeo.com/scoop/new"], /* sociable code */
 
 /* Segnalo (ITALIAN) */
 a[href*="segnalo.alice.it/post.html"], /* sociable code */
+
+/* SexyBookmarks */
+.shr-bookmarks, /* http://letmein.at/js/multi-user-real-time-heatmaps/ */
 
 /* SheToldMe */
 a[href*="shetoldme.com/publish"], /* sociable code */
@@ -256,6 +284,10 @@ a[href*="stumbleupon.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02
 a[href*="technorati.com/faves?add"], /* http://www.jennifer8lee.com/ */
 a[href*="technorati.com/search"], /* http://voices.washingtonpost.com/44/2011/01/jared-loughners-behavior-recor.html */
 a[href*="technorati.com/faves/?add"], /* http://blogs.msdn.com/b/ieinternals/archive/2011/02/11/ie9-release-candidate-minor-changes-list.aspx */
+a[href*="technorati.com/faves?sub=addfavbtn"], /* http://google-chrome-browser.com/stable-and-beta-channel-updates-0 */
+
+/* The Web Blend */
+a[href*="thewebblend.com/submit"], /* http://inspiredology.com/dribbbles-effect-on-the-web-industry/ */
 
 /* ThisNext */
 a[href*="thisnext.com/pick/new/submit"], /* sociable code */
@@ -274,6 +306,7 @@ a[href*="twitter.com/share"], /* http://www.macworld.com/article/156720/2011/01/
 a[href*="twitter.com/?status"], /* http://www.sportspickle.com/picture/4755/comcast-sportsnet-gives-us-the-stats-we-really-want, */
 *[onclick*="twitter.com/share"], /* http://imgur.com/Qmc11 */
 a[href*="twitter.com?status"],/* http://www.vanityfair.com/style/features/2011/01/ralph-lauren-garage-201101 */
+a[href*="twitter.com/intent/tweet?"], /* http://www.heise.de/newsticker/meldung/Witze-Welle-erklaert-Netzwerkprotokolle-1255783.html */
 
 /* Upnews (ITALIAN) */
 a[href*="upnews.it/submit"], /* sociable code */
@@ -310,6 +343,7 @@ a[href*="xerpi.com/block/add_link"], /* sociable code */
 
 /* Yahoo Bookmarks */
 a[href*="bookmarks.yahoo.com/toolbar/savebm"], /* http://download.cnet.com/8301-2007_4-20026355-12.html */
+a[href*="search.yahoo.com/myresults/bookmarklet"], /* http://webbeat.tv/bigphone-google-voice-for-mac/ */
 
 /* Yahoo Buzz */
 form[action*="buzz.yahoo.com/vote"], /* http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
@@ -369,6 +403,22 @@ ul.options li.t-share, ul.options li.t-facebook, ul.options li.t-twitter, ul.opt
 .storytools .recommendStoryTool, /* http://www.npr.org/2011/02/14/133697585/on-jeopardy-its-man-vs-this-machine */
 #social-vote, /* http://www.technewsdaily.com/jeopardy-vs-computer-how-ibms-watson-works-2161/ */
 .social, .social2, /* http://www.hollywoodreporter.com/news/esperanza-spalding-7-facts-grammys-99327 */
+.twitter-share, /* http://nicolasgallagher.com/css-drop-shadows-without-images/ */
+#cnetToolbarWrap, /* http://news.cnet.com/8301-13880_3-20034213-68.html?part=rss&subj=news&tag=2547-1_3-0-20 */
+.share-wrap, /* http://gizmodo.com/#!5520164/this-is-apples-next-iphone */
+#share-trigger, /* http://www.theregister.co.uk/2011/03/01/the_rise_and_rise_of_node_dot_js/ */
+div #main_content div#floating_tools, /* http://www.computerworld.com/s/article/9214022/Google_s_Chrome_untouched_at_Pwn2Own_hack_match */
+li.share, /* http://www.bloomberg.com/news/2011-03-12/facebook-will-introduce-new-service-that-sells-discount-deals.html */
+.shareArticles, /* http://www.dailymail.co.uk/news/article-1366395/Japan-tsunami-earthquake-Rescuers-pick-way-apocalypse-wasteland.html */
+.sharethis, /* http://naturallyella.com/2011/03/28/coconut-cinnamon-granola/ */
+.sharing, /* http://laughingsquid.com/1994-video-predicts-coming-of-the-tablet-newspaper/ */
+#social-bar, /* http://www.6wunderkinder.com/wunderlist/ */
+a[href="#share"], /* http://www.uncrate.com/men/cars/concept/1966-batmobile/ */
+.sharepost, /* http://mike.kaply.com/2011/06/23/understanding-the-corporate-impact */
+
+/* Squarespace */
+.share-item, /* http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html */
+*[onclick*="Squarespace.Interaction.shareLink"], /* http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html */
 
 /* New York Times */
 .entry-tools li.share, /* http://dealbook.nytimes.com/2011/01/06/s-e-c-questions-goldman-on-offering/ */

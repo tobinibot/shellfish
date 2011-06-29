@@ -35,12 +35,15 @@ __shellfish__['SCRIPT'] = [
     /postup\.com\/twidget/, /* just guessing, tweetup == postup */
     /apture\.com\/js\/apture\.js/, /* http://www.economist.com/blogs/babbage/2011/01/anti-piracy_laser */
     /prettydigg\/diggbutton\.js/, /* http://www.talkingpointsmemo.com/archives/2011/01/they_just_dont_stop.php */
-    /sharethis\.com\/button\/(?:buttons|sharethis)\.js/ /* http://imgur.com/Qmc11, http://mashable.com/2011/01/17/banksy-identity-ebay */
+    /sharethis\.com\/button\/(?:buttons|sharethis)\.js/, /* http://imgur.com/Qmc11, http://mashable.com/2011/01/17/banksy-identity-ebay */
+    /cdn\.wibiya\.com\/(?:Toolbars|Scripts)/, /* http://www.themetropreneur.com/columbus/jennie-scheinbach-pattycake-bakery-questions-answered/ */
+    /apis\.google\.com\/js\/plusone\.js/, /* http://techcrunch.com/2011/06/02/kodesk-is-like-an-airbnb-for-office-space/ */
+    /twittercounter.com\/embed\//, /* http://google-chrome-browser.com/stable-and-beta-channel-updates-0 */
 ];
 
 __shellfish__['IFRAME'] = [
     /(?:api|pro)\.tweetmeme\.com\/button\.js/, /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171, http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
-    /facebook\.com\/(?:plugins|widgets)\/(?:activity|like|likebox)\.php/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/, http://www.wired.com/epicenter/2010/12/carriers-net-neutrality-tiers/, http://www.slate.com/id/2281146, http://www.engadget.com/2010/12/19/yikebike-foldable-electric-bike-now-available-for-the-low-low-p/ */
+    /facebook\.com\/(?:plugins|widgets)\/(?:activity|like|likebox|recommendations)\.php/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/, http://www.wired.com/epicenter/2010/12/carriers-net-neutrality-tiers/, http://www.slate.com/id/2281146, http://www.engadget.com/2010/12/19/yikebike-foldable-electric-bike-now-available-for-the-low-low-p/ */
     /platform[\d+]?\.twitter\.com\/widgets\/tweet_button\.html/, /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/, http://www.onionsportsnetwork.com/articles/tim-duncan-announces-shoe-deal-with-florsheim,18718/ */
     /yimg\.com\/b\/social_buttons/, /* http://news.yahoo.com/s/ap/20101207/ap_on_sp_co_ne/fbc_bcs_standings_mistake */
     /blogengage\.com\/evb/, /* http://www.dragonblogger.com/firebug-google-chrome/ */
@@ -53,7 +56,9 @@ __shellfish__['IFRAME'] = [
     /tools\.awe\.sm\/tweet-button\/files\/tweet_button\.html/, /* http://www.buzzfeed.com/darthvader/star-wars-super-bowl-poster-1d1i */
     /okcupid\.com\/twitter\?blogurl/, /* http://blog.okcupid.com/index.php/the-mathematics-of-beauty/ */
     /sfgate\.com\/js\/utils\/facebook_load\.html/, /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
-    /media\/system\/twittertweeter\.php/ /* http://www.technewsdaily.com/jeopardy-vs-computer-how-ibms-watson-works-2161/ */
+    /media\/system\/twittertweeter\.php/, /* http://www.technewsdaily.com/jeopardy-vs-computer-how-ibms-watson-works-2161/ */
+    /flattr\.com\/button\/view/, /* http://www.jplayer.org/ */
+    /widgets\.fbshare\.me/ /* http://mike.kaply.com/2011/06/23/understanding-the-corporate-impact */
 ];
 
 function allowContentToLoad(host, url, nodeName) {
