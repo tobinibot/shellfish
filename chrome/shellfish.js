@@ -85,13 +85,13 @@ document.addEventListener("beforeload", function(event) {
     var url = event.url;
 
     if (nodeName === "IFRAME" || nodeName === "SCRIPT") {
-        console.log('Checking ' + nodeName + ' ' + url);
+        //console.log('Checking ' + nodeName + ' ' + url);
 
         if (allowContentToLoad(window.location.hostname, url, nodeName))
             return;
 
         // Since the load should be blocked, call preventDefault on the event to block it.
-        console.log('Blocking ' + nodeName + ' ' + url);
+        //console.log('Blocking ' + nodeName + ' ' + url);
         event.preventDefault();
     }
 }, true);

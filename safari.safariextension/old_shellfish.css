@@ -1,0 +1,365 @@
+/* AddThis */
+*[class^="addthis_button"],
+.addthis_toolbox, /* http://www.developerit.com/2010/05/21/undefined-method-get-with-sinatra */
+a[href*="addthis.com/bookmark.php"], /* http://www.goodwebpractices.com/roi/track-downloads-in-google-analytics-automatically.html */ 
+iframe[src*="addthis.com/static"], /* http://www.tmz.com/ */
+a[href*="api.addthis.com/oexchange"],
+
+/* TweetMeme */
+.tweetmemebutton,
+.tweetmeme-button,
+.tweetmeme_button,
+.tweetmeme_wrapper,
+iframe[src*="tweetmeme.com"],
+
+/* ShareThis */
+.sharethis_wrapper,
+#stwrapper,
+iframe[src*="sharethis.com"],
+#sharethis_0,
+#sharethis_1,
+#sharethis_2,
+#sharethis_3,
+#sharethis_4,
+#sharethis_5,
+#st_sharethis, #st_sharethis_min, #st_email_min,
+.st_sharethis, .st_sharethis_min, .st_email_min,
+.stbutton, /* http://giorgiosironi.blogspot.com/2010/08/google-never-removed-oracle-from-its.html */
+.st_sharethis, .st_facebook, .st_twitter, .st_myspace, .st_email,
+.st_facebook_hcount, .st_twitter_hcount, .st_sharethis_hcount, .st_reddit_hcount, .st_digg_hcount, .st_stumbleupon_hcount, .st_email_hcount,
+.st_facebook_vcount, .st_twitter_vcount, .st_sharethis_vcount, .st_reddit_vcount, .st_digg_vcount, .st_stumbleupon_vcount, .st_email_vcount,
+.st_twitter_large, .st_facebook_large, .st_ybuzz_large, .st_gbuzz_large, .st_email_large, .st_sharethis_large,
+#ck_facebook, #ck_digg, #ck_twitter, #ck_twitter, #ck_sharethis,
+
+/* Facebook */
+.facebook-button,
+.facebook-like,
+.fb_like_cont,        /* huffingtonpost */
+.fb_like_contain,     /* huffingtonpost */
+.fb_share_count_wrapper,
+a[href*="facebook.com/sharer.php"], /* http://nighthacks.com/roller/jag/entry/quite_the_firestorm */
+a[href*="facebook.com/share.php"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
+iframe[src*="facebook.com/plugins/like.php"], /* http://christwire.org/2010/08/is-my-husband-gay/ */ 
+iframe[src*="facebook.com/widgets/like.php"], /* http://google-chrome-browser.com/stable-and-beta-channel-updates-0 */
+iframe[src*="facebook.com/plugins/likebox.php"], /* http://www.uncrate.com/men/cars/concept/1966-batmobile/ */
+iframe[src*="facebook.com/plugins/recommendations.php"], /* http://www.thefashionspot.com/celebrity-fashion/news/109502-kat-von-d-celebrity-fantasy-makeover */
+*[onclick*="facebook.com/sharer.php?"],
+#FB-Reco, /* ??? http://www.thefashionspot.com/celebrity-fashion/news/109502-kat-von-d-celebrity-fantasy-makeover */
+iframe[src*="facebook.com/connect/connect.php?"], /* http://arstechnica.com/apple/news/2010/01/rage-against-the-mail-machine-the-genesis-of-letters.ars */
+iframe[src*="facebook.com/plugins/activity.php"], /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171 */
+
+/* Digg */
+.db-wrapper.db-clear.db-medium, /* http://www.sfweekly.com/2010-08-11/news/ihelp-for-autism/ */
+.db-wrapper.db-clear.db-large,
+.db-wrapper.db-clear.db-compact,
+.db-wrapper.db-clear.db-digger,
+img[src^="http://digg.com/img/badges"],
+iframe[src*="digg.com/api/diggthis.php"], /* http://gawker.com/5614579/how-to-make-justin-bieber-sound-incredible-slow-him-down-800-percent */ 
+a[href*="digg.com/submit?"],
+.db-clean,
+.db-container,
+
+/* Shareaholic / SexyBookmarks */
+a[href*="shareaholic.com/api/share/?"],
+.shareaholic-show-on-load,
+.sexy-bookmarks, .shr-bookmarks,
+
+/* Twitter */
+iframe[src*="twitter.com/widgets"], /* http://paidcontent.org/article/419-wapo-sells-newsweek-to-harman-announcement-coming-this-afternoon/ */
+a[href*="twitter.com/home?status="],
+a[href*="twitter.com/home/?status="],
+a[href*="twitter.com/home?"],
+a[href*="twitter.com?status="],
+a[href*="twitter.com/share?"],
+
+/* Reddit */
+iframe[src*="reddit.com/static/"],
+a[href*="reddit.com/submit"],
+
+/* Meebo */
+#meebo, /* http://www.tmz.com/ */ 
+#meebo *, /* http://www.tmz.com/ */ 
+
+/* StumbleUpon */
+iframe[src*="stumbleupon.com/badge"], /* http://www.sfweekly.com/2010-08-11/news/ihelp-for-autism/ */ 
+a[href*="stumbleupon.com/submit?"],
+
+/* Flattr */
+iframe[src*="flattr.com/button"], /* http://giorgiosironi.blogspot.com/2010/08/google-never-removed-oracle-from-its.html */ 
+
+/* Wibiya */
+#wibiyaToolbar,
+#wibiyaToolbarMinimized,
+#div_shadow,
+
+/* Google Buzz */
+a[href*="google.com/buzz/post?"],
+a[href*="google.com/reader/link?"], /* really more Google Reader, obviously */
+.google-buzz-button,
+
+/* AddToAny */
+.addtoany_share_save,
+.a2a_dd,
+a[href*="addtoany.com/share_save"],
+
+/* LinkedIn */
+a[href*="linkedin.com/shareArticle"],
+*[onclick*="linkedin.com/shareArticle"],
+.IN-widget, /* http://www.bloomberg.com/news/2010-12-04/google-bid-to-buy-groupon-site-is-said-to-be-rejected-update1-.html */
+
+/* Delicious */
+a[href*="del.icio.us/post"],
+a[href*="delicious.com/post"],
+a[href*="delicious.com/save"],
+
+/* 0.9.5 below */
+
+/* Yahoo Buzz */
+.yahooBuzzBadge-form,
+.yahooBuzzBadge,
+a[href*="buzz.yahoo.com/buzz?"],
+a[href*="buzz.yahoo.com/submit"],
+a[href*="buzz.yahoo.com/article/"],
+form[action*="buzz.yahoo.com/vote"], /* http://news.yahoo.com/s/ap/20101207/ap_on_sp_co_ne/fbc_bcs_standings_mistake */
+
+/* MySpace */
+a[href*="myspace.com/Modules/PostTo/Pages"],
+*[onmousedown*="myspace.com/Modules/PostTo/Pages"],
+img[src*="cms.myspacecdn.com/cms/ShareOnMySpace"],
+
+/* NewsTrust */
+a[href*="newstrust.net/submit"],
+*[onmousedown*="newstrust.net/submit?"],
+#newstrust_submit_story_button,
+
+/* Mixx */
+a[onclick*="mixx.com/submit?"],
+a[href*="mixx.com/submit?"],
+
+/* DZone */
+iframe[src*="widgets.dzone.com"],
+a[href*="dzone.com/links/add.html?"], /* http://www.electrictoolbox.com/check-uncheck-checkbox-jquery/ */
+
+/* Associated Press minibar */
+#minibar.minibar > #minibar_open.mini_container,
+#minibar.minibar > #minibar_close.mini_container,
+
+/* CNN sharing buttons */
+.cnn_strybtnmxx,
+.cnn_strybtntwttr,
+.cnn_strybtnshr,
+.cnn_strybtnem,
+
+/* BackType */
+iframe[src*="widgets.backtype.com/backtweets?"],
+iframe[src*="widgets.backtype.com/tweetcount?"],
+
+/* 0.9.6 below */
+
+/* Mixi */
+a[href*="mixi.jp/share.pl"],
+
+/* Gree */
+iframe[src*="share.gree.jp/share"],
+
+/* Ping.fm */
+a[href*="ping.fm/ref/?"],
+
+/* Other Google */
+a[href*="google.com/bookmarks/mark?"],
+a[href*="fusion.google.com/add?"],
+
+/* Blogmarks */
+a[href*="blogmarks.net/my/new.php?"],
+
+/* FriendFeed */
+a[href*="friendfeed.com/?url"],
+a[href*="friendfeed.com/share?"],
+a[onclick*="friendfeed.com/share"],
+
+/* Mister Wong */
+a[href*="mister-wong.com/add_url"],
+a[href*="mister-wong.com/addurl"],
+
+/* Netvibes */
+a[href*="netvibes.com/share?"],
+
+/* Wikio */
+a[href*="wikio.com/sharethis?"],
+a[href*="wikio.com/vote"],
+.wikio-share-popup-button,
+
+/* Microsoft Live */
+a[href*="favorites.live.com/quickadd.aspx?"],
+
+/* Newsvine */
+a[href*="newsvine.com/_tools/seed&save?"],
+a[href*="newsvine.com/_tools/seed?"],
+
+/* Slashdot */
+a[href*="slashdot.org/bookmark.pl?"],
+
+/* Technorati */
+a[href*="technorati.com/faves?add"],
+a[href*="technorati.com/faves?sub"],
+
+/* Fark */
+a[href*="fark.com/cgi/farkit.pl?"],
+
+/* Tweetboard */
+iframe[src*="tweetboard.com/widget/"],
+#tb_over_wtb,
+#tb_wcont_wtb,
+
+/* Apture */
+.aptureTMMHideButton,
+.aptureTMMHideButtonFixed,
+.aptureTMMResults,
+.aptureTMMBar,
+.aptureTMMBarInnerDiv,
+
+/* VKontakte */
+a[href*="vkontakte.ru/share.php"],
+iframe[src*="vkontakte.ru/widget_like.php?"],
+iframe[src*="vkontakte.ru/widget_comments.php?"],
+
+/*  Мой Мир */
+a[href*="connect.mail.ru/share?"],
+
+/* JapanSoc */
+iframe[src*="japansoc.com/index.php?"],
+a[href*="japansoc.com/index.php?page=submit"],
+
+/* 0.9.7 below */
+
+/* Complex Media Network */
+#cmn_tb_wrapper,
+
+/* Echo */
+/*#echo-recent-comments,*/
+/*#echo-river,*/
+/*.js-kit-comments,*/
+
+/* Simple Social */
+.simplesocial,
+
+/* Blog Engage */
+iframe[src*="blogengage.com/evb/"], /* http://www.dragonblogger.com/firebug-google-chrome/ */
+
+/* OnlyWire */
+.ow_button_border,
+.ow_logo,
+.ow_text,
+
+/* Lifestream (AOL) */
+a[href*="lifestream.aol.com/share"],
+
+/* 0.9.8 below */
+
+/* Topsy */
+.topsy_widget_data,
+.topsy_widget_shortcode,
+
+/* Designbump */
+iframe[src*="designbump.com/sites/all/moduels/drigg_external"],
+a[href*="designbump.com/submit?"], /* http://inspiredology.com/dribbbles-effect-on-the-web-industry/ */
+
+/* Awe.sm */
+iframe[src*="tools.awe.sm/tweet-button"], /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
+
+/* Y Combinator */
+a[href*="ycombinator.com/submitlink?"], /* http://www.sencha.com/blog/2010/11/08/sencha-touch-rc1-released/ */
+
+/* Fbshare.me */
+iframe[src*="widgets.fbshare.me/files/fbshare.php?"], /* http://www.jesusneedsnewpr.net/worst-nativity-ever-and-completely-unkosher/ */
+
+/* Random */
+#chicklets.chicklets, /* huffingtonpost */
+.akst_link,
+#shareVersion3,
+.ShareTools,
+.socialable,
+.sociable,
+.social,
+.social2, /* http://www.hollywoodreporter.com/blogs/live-feed/nfl-beats-world-series-first-34066 */
+#tweetmemeAndFacebook, /* http://news.cnet.com/8301-17852_3-20012291-71.html */ 
+#SMBadge_Container, /* http://www.hongkiat.com/blog/real-time-web-analytics-services-best-of/ */ 
+.share-this-post, /* http://ostrichapp.tumblr.com/post/903434351/freak-problem-on-the-server-solution-underway */ 
+#social_sharing, /* http://www.mellowmorning.com/2010/08/03/creating-your-own-diggfacebook-liketweetmeme-button/ */
+#shareTags, /* http://reviews.cnet.com/8301-12519_7-20012565-49.html */
+#shareDropDown, /* http://reviews.cnet.com/8301-12519_7-20012565-49.html */
+ul.contentTools li a.share, /* http://reviews.cnet.com/8301-12519_7-20012565-49.html */
+#id_storytools_social_bottom, /* http://www.javaworld.com/javaworld/jw-08-2007/jw-08-swingthreading.html */ 
+a.share-page, /* http://www.google.com/support/analytics/bin/answer.py?hl=en&answer=55529 */ 
+.post_share, /* http://mashable.com/2010/08/16/adobe-air-android/ */ 
+#main_content_box #left_column ul li.share, /* http://paidcontent.org/article/419-wapo-sells-newsweek-to-harman-announcement-coming-this-afternoon/ */ 
+#tbc #tbcontainer .toolbar .div-main .app#tab-email, /* msnbc */
+#tbc #tbcontainer .toolbar .div-main .app#tab-facebook2, /* msnbc */
+#tbc #tbcontainer .toolbar .div-main .app#tab-twittera,
+.postsocial /* http://royal.pingdom.com/2010/08/16/why-android-developers-are-losing-money/ */,
+.aToolUnit.aToolType-social, /* http://online.wsj.com/article/SB10001424052748703321004575427892781417642.html# */
+.aToolUnit.aToolType-fbLike, /* http://online.wsj.com/article/SB10001424052748703321004575427892781417642.html# */
+.aToolUnit.share, /* http://online.wsj.com/article/SB10001424052748703321004575427892781417642.html# */ 
+.articleTools li#facebook_item,
+.articleTools li#twitter_item,
+.articleTools li#shareMenu, /* http://www.nytimes.com/2010/08/16/technology/16hulu.html */ 
+button#watch-share, /* http://www.youtube.com/watch?v=ItZyaOlrb7E */
+.besocial, /* http://www.sfweekly.com/2010-08-11/news/ihelp-for-autism/ */ 
+#wrapper #box ul#article-toolbox a.send-share, /* http://www.guardian.co.uk/artanddesign/2010/aug/11/dmitri-kasterine-best-shot-photography# */ 
+#wrapper #box ul#article-toolbox-side a.send-share, /* http://www.guardian.co.uk/artanddesign/2010/aug/11/dmitri-kasterine-best-shot-photography# */ 
+.share-links, /* http://www.guardian.co.uk/artanddesign/2010/aug/11/dmitri-kasterine-best-shot-photography# */
+.topsy_widget_data, /* http://peter.sh/examples/?/chromium-switches.html */ 
+.entry-footer-share-buttons, /* http://danieljclark.typepad.com/my_weblog/2010/08/mark-your-calendars-for-domas-annual-party.html */
+.entry-footer-share, /* http://danieljclark.typepad.com/my_weblog/2010/08/mark-your-calendars-for-domas-annual-party.html */
+.share-item, /* http://www.thedieline.com/ */ 
+.shareListBox, /* http://current.com/news/92602924_man-jailed-for-assaulting-fortune-teller-who-predicted-hed-go-to-jail.htm */ 
+.social_boxes, /* http://www.huffingtonpost.com/2010/08/21/egg-recall-expands-to-mor_n_690019.html */ 
+.socialshare, /* http://christwire.org/2010/08/is-my-husband-gay/ */
+.cnttb_share, /* http://www.realsimple.com/home-organizing/organizing/moving/moving-made-easy-00000000000327/index.html */ 
+div#container div#content div#post div div#spread /* http://www.macstories.net/reviews/itsy-review/ */,
+.shareit, /* http://www.tmz.com/ */
+.sharing, /* http://chilmarkresearch.com/2010/05/11/intuit-makes-a-move-acquires-medfusion/ */ 
+.share-button-container, .share-button,
+#share_tab, /* http://www.justin.tv/catreina */ 
+.shareTools, /* http://thestir.cafemom.com/food_party/108590/experts_warn_run_from_all */
+.ShareThisMainPanel, /* http://blogs.msdn.com/b/ie/archive/2010/03/18/the-new-javascript-engine-in-internet-explorer-9.aspx */
+#share-trigger, /* http://www.theregister.co.uk/2010/09/09/google_caffeine_explained/ */
+.gizmoArticleFunctionBar.small, /* http://www.wikio.com/ */
+.gizmoTwikioCounter.fireBird, /* http://www.wikio.com/ */
+div.share_tools.vertical li.topspace:last-child,
+li.t-share, li.t-facebook, li.t-twitter, /* http://www.zdnet.com/blog/bott/internet-explorer-9-beta-review-microsoft-reinvents-the-browser/2430 */
+.STR_SocialButton.STR_BtnShare, /* http://dilbert.com/strips */
+.viralShare, /* http://www.slideshare.net/steveonjava/javafx-your-way-building-javafx-applications-with-alternative-languages */
+a[href*="talkingpointsmemo.com/twitter_share.php?"],
+#diggchicklet, /* http://www.talkingpointsmemo.com/archives/2010/09/someone_to_spend_more_time_with_family.php */
+.share-twitter, /* http://googleblog.blogspot.com/2010/09/more-fontastic-google-docs.html */
+.entry-tools .with-ad.share.closed, /* http://dealbook.blogs.nytimes.com/2010/09/27/southwest-to-buy-airtran-for-1-37-billion/?src=twt&twt=nytimes */
+.storybuttons .storybutton.sharebutton, /* http://web.mit.edu/newsoffice/2010/max-flow-speedup-0927.html */
+#shareIcons .shareIcons, /* http://newsfeed.time.com/2010/09/27/max-weinberg-wont-follow-conan-to-tbs/ */
+a[href="#share"], /* http://www.uncrate.com/men/cars/concept/1966-batmobile/ */
+.social-box, /* http://yfrog.com/cbtweetiemacvideoz */
+.socialtools, /* http://www.sfgate.com/cgi-bin/blogs/giants/detail?entry_id=73578 */
+#deliciousCounter, /* http://www.moleskine.com/about_us/news/moleskine_covers_for_iphone_and_ipad.php */
+.article_tools_twitter, /* http://mlb.mlb.com/news/article.jsp?ymd=20101002&content_id=15336670&vkey=news_sf&c_id=sf&partnerId=rss_sf */
+li[aria-describedby*="share-links-panel-"], /* http://www.bbc.co.uk/news/world-latin-america-11473466 */
+.facebook-popup, /* http://www.bbc.co.uk/news/world-latin-america-11473466 */
+ul.share li.fb, ul.share li.twitter, ul.share li.buzz, ul.share li.diggm, /* http://teamcoco.com/blog/awesome-new-conan-desk-washing-tbs-promo/ */
+#cnetToolbarWrap, /* http://cnet.com */
+#opinion #wrapper #main #content div.share_tools ul li.last, /* http://www.theonion.com/articles/october-11-2010,18238/ */
+#shell #page #twitter_item, #shell #page .share, #shell #page .timespeople_btn_recommend, /* http://bits.blogs.nytimes.com/2010/10/11/microsoft-announces-final-windows-phones/?src=twt&twt=nytimes */
+.social-bar, /* http://www.bnet.com/blog/businesstips/nestles-facebook-page-how-a-company-can-really-screw-up-social-media/6786 */
+ul.storytools li.shareStoryTool, ul.storytools li.twitterTool, ul.storytools li.facebookLi,  /* http://www.npr.org/templates/story/story.php?storyId=130451369 */
+.posterous_tweet_button, /* http://codebutler.com/firesheep-a-day-later */
+#shareLinks li.share, /* http://www.reuters.com/article/idUSTRE69P59W20101026 */
+.boost-btn, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
+#social-actions, /* http://www.buzzfeed.com/mjs538/the-100-best-signs-at-the-rally-to-restore-sanity */
+.post #share, /* http://www.sencha.com/blog/2010/11/08/sencha-touch-rc1-released/ */
+.socialtoolkit, /* http://abcnews.go.com/Business/walking-airport-security-lead-11000-fine/story?id=12215171 */
+.icon-share, /* http://www.cnet.com.au/avatar-behind-the-scenes-at-weta-digital_p26-339307487.htm#vp */
+ul li.share, /* http://www.bbc.co.uk/news/world-latin-america-11862593 */
+.sharepost, /* http://www.jesusneedsnewpr.net/worst-nativity-ever-and-completely-unkosher/ */
+iframe[src*="facebook-share-iframe"], /* http://news.yahoo.com/s/ap/20101207/ap_on_sp_co_ne/fbc_bcs_standings_mistake */
+.widget .digg, .widget .delicious, .widget .fb, .widget .google, .widget .stumble, .widget .twitter, .widget .reddit /* http://www.riskintel.com/2010/12/u-s-code-cracking-agency-works-as-if-compromised/ */ 
+{
+	display: none !important;
+}

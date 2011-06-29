@@ -7,18 +7,18 @@ require 'crxmake'
 CrxMake.make(
   :ex_dir => ".",
   :pkey   => "./shellfish.pem",
-  :crx_output => "../shellfish-0.9.7.crx",
+  :crx_output => "../shellfish-1.0.crx",
   :verbose => true,
-  :ignorefile => /\.swp|\.rb|shellfish\.pem/,
+  :ignorefile => /\.swp|\.rb|shellfish\.pem|old_|DS_Store/,
   :ignoredir => /\.(?:svn|git|cvs)/
 )
 
 #create zip for Google Extension Gallery
-# CrxMake.zip(
-#   :ex_dir => ".",
-#   :pkey   => "./shellfish.pem",
-#   :zip_output => "../shellfish-0.9.7.zip",
-#   :verbose => true,
-#   :ignorefile => /\.swp|\.rb|shellfish\.pem/,
-#   :ignoredir => /\.(?:svn|git|cvs)/
-# )
+CrxMake.zip(
+  :ex_dir => ".",
+  :pkey   => "./shellfish.pem",
+  :zip_output => "../shellfish-1.0.zip",
+  :verbose => true,
+  :ignorefile => /\.swp|\.rb|shellfish\.pem|old_|DS_Store/,
+  :ignoredir => /\.(?:svn|git|cvs)/
+)

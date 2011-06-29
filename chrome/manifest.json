@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "css": ["shellfish2.css", "chrome_bugs.css"],
+      "css": ["shellfish.css", "chrome_bugs.css"],
       "js": ["shellfish.js"],
       "run_at": "document_start"
     }
