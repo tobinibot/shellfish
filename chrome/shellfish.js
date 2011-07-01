@@ -39,6 +39,9 @@ __shellfish__['SCRIPT'] = [
     /cdn\.wibiya\.com\/(?:Toolbars|Scripts)/, /* http://www.themetropreneur.com/columbus/jennie-scheinbach-pattycake-bakery-questions-answered/ */
     /apis\.google\.com\/js\/plusone\.js/, /* http://techcrunch.com/2011/06/02/kodesk-is-like-an-airbnb-for-office-space/ */
     /twittercounter.com\/embed\//, /* http://google-chrome-browser.com/stable-and-beta-channel-updates-0 */
+    /widgets\.backtype\.com/, /* example page */
+    /newstrust\.net\/js\/submit_story\.js/, /* example page */
+    /onlywire\.com\/btn/ /* example page */
 ];
 
 __shellfish__['IFRAME'] = [
@@ -58,7 +61,9 @@ __shellfish__['IFRAME'] = [
     /sfgate\.com\/js\/utils\/facebook_load\.html/, /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
     /media\/system\/twittertweeter\.php/, /* http://www.technewsdaily.com/jeopardy-vs-computer-how-ibms-watson-works-2161/ */
     /flattr\.com\/button\/view/, /* http://www.jplayer.org/ */
-    /widgets\.fbshare\.me/ /* http://mike.kaply.com/2011/06/23/understanding-the-corporate-impact */
+    /widgets\.fbshare\.me/, /* http://mike.kaply.com/2011/06/23/understanding-the-corporate-impact */
+    /widgets\.backtype\.com/, /* example page */
+    /vkontakte\.ru\/widget_(?:like|comments).php\?/
 ];
 
 function allowContentToLoad(host, url, nodeName) {
@@ -85,13 +90,13 @@ document.addEventListener("beforeload", function(event) {
     var url = event.url;
 
     if (nodeName === "IFRAME" || nodeName === "SCRIPT") {
-        //console.log('Checking ' + nodeName + ' ' + url);
+        console.log('Checking ' + nodeName + ' ' + url);
 
         if (allowContentToLoad(window.location.hostname, url, nodeName))
             return;
 
         // Since the load should be blocked, call preventDefault on the event to block it.
-        //console.log('Blocking ' + nodeName + ' ' + url);
+        console.log('Blocking ' + nodeName + ' ' + url);
         event.preventDefault();
     }
 }, true);
