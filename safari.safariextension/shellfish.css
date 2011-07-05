@@ -95,6 +95,7 @@ a[href*="faves.com/Authoring.aspx"], /* sociable code */
 /* FriendFeed */
 a[href*="friendfeed.com/share"], /* sociable code */
 a[href*="friendfeed.com/?url"], /* http://blogs.msdn.com/b/ieinternals/archive/2011/02/11/ie9-release-candidate-minor-changes-list.aspx */
+a[onclick*="friendfeed.com/share"], /* sociable code */
 
 /* Flattr */
 a[href*="flattr.com/thing"], /* https://github.com/DanielRapp/Noisy */
@@ -171,7 +172,6 @@ a[href*="linkter.hu/index.php?action=suggest"], /* sociable code */
 .share-button-container, /* http://business.meebo.com/demo/ */
 .share-button, /* http://business.meebo.com/demo/ */
 
-
 /* Meneame (SPANISH) */
 a[href*="meneame.net/submit"], /* sociable code */
 
@@ -182,12 +182,14 @@ a[href*="spaces.live.com/BlogIt.aspx"], /* http://blogs.msdn.com/b/ieinternals/a
 /* Mister Wong */
 a[href*="mister-wong.com/addurl"], /* sociable code */
 a[href*="mister-wong.de/index.php?action=addurl"], /* http://www.heise.de/newsticker/meldung/Witze-Welle-erklaert-Netzwerkprotokolle-1255783.html */
+a[href*="mister-wong.com/add_url"], /* example page */
 
 /* Mister Wong (GERMAN) */
 a[href*="mister-wong.de/addurl"], /* sociable code */
 
 /* Mixx */
 a[href*="mixx.com/submit"], /* http://weburbanist.com/2010/12/29/stop-look-and-love-8-redesigns-of-classic-traffic-lights/ */
+a[onclick*="mixx.com/submit"], /* example page */
 
 /* MOB */
 a[href*="mob.com/share.php"], /* sociable code */
@@ -285,6 +287,7 @@ a[href*="technorati.com/faves?add"], /* http://www.jennifer8lee.com/ */
 a[href*="technorati.com/search"], /* http://voices.washingtonpost.com/44/2011/01/jared-loughners-behavior-recor.html */
 a[href*="technorati.com/faves/?add"], /* http://blogs.msdn.com/b/ieinternals/archive/2011/02/11/ie9-release-candidate-minor-changes-list.aspx */
 a[href*="technorati.com/faves?sub=addfavbtn"], /* http://google-chrome-browser.com/stable-and-beta-channel-updates-0 */
+a[href*="technorati.com/signup"], /* http://www.buzzbiznews.com/033755/apple-white-iphone-release-date/ */
 
 /* The Web Blend */
 a[href*="thewebblend.com/submit"], /* http://inspiredology.com/dribbbles-effect-on-the-web-industry/ */
@@ -317,6 +320,11 @@ a[href*="rec6.via6.com/link.php"], /* sociable code */
 /* Viadeo (FRENCH) */
 a[href*="viadeo.com/shareit"], /* sociable code */
 
+/* VKontakte */
+a[href*="vkontakte.ru/share.php"],
+iframe[src*="vkontakte.ru/widget_like.php?"],
+iframe[src*="vkontakte.ru/widget_comments.php?"],
+
 /* Webnews (GERMAN) */
 a[href*="webnews.de/einstellen"], /* http://www.canoo.com/blog/2011/01/10/intellij-idea-series-vii/ */
 
@@ -325,6 +333,7 @@ a[href*="webride.org/discuss/split.php"], /* sociable code */
 
 /* Wikio */
 a[href*="wikio.com/vote"], /* sociable code */
+a[href*="wikio.com/sharethis"], /* example page */
 
 /* Wikio (FRENCH) */
 a[href*="wikio.fr/vote"], /* sociable code */
@@ -416,6 +425,10 @@ li.share, /* http://www.bloomberg.com/news/2011-03-12/facebook-will-introduce-ne
 a[href="#share"], /* http://www.uncrate.com/men/cars/concept/1966-batmobile/ */
 .sharepost, /* http://mike.kaply.com/2011/06/23/understanding-the-corporate-impact */
 .bottom-share, /* http://www.businessinsider.com/aol-michael-arrington-2011-1 */
+.socialfix, /* http://www.newdream.org/newsletter/100holiday.php */
+.soc_icons, /* http://gazeta.ru/politics/2011/03/09_a_3549289.shtml */
+.article_tools_twitter, /* http://mlb.mlb.com/news/article.jsp?ymd=20110630&content_id=21202330&vkey=news_sf&c_id=sf&partnerId=rss_sf */
+.article_tools_facebook, /* http://mlb.mlb.com/news/article.jsp?ymd=20110630&content_id=21202330&vkey=news_sf&c_id=sf&partnerId=rss_sf */
 
 /* Squarespace */
 .share-item, /* http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html */
@@ -429,6 +442,8 @@ a[href="#share"], /* http://www.uncrate.com/men/cars/concept/1966-batmobile/ */
 .shareButton, /* http://artsbeat.blogs.nytimes.com/2011/01/07/the-week-in-ted-williams-so-far */
 ul.toolsList #facebook_item, /* http://www.nytimes.com/2011/01/10/us/10green.html */
 ul.toolsList #twitter_item, /* http://www.nytimes.com/2011/01/10/us/10green.html */
+#skimmerArticleViewer #articleTools .twitter, /* http://www.nytimes.com/skimmer/#/Top+News//www.nytimes.com/2011/05/03/us/politics/03obama.html */
+#skimmerArticleViewer #articleTools .facebook, /* http://www.nytimes.com/skimmer/#/Top+News//www.nytimes.com/2011/05/03/us/politics/03obama.html */
 
 /* Huffington Post */
 /* http://www.huffingtonpost.com/2011/01/06/two-house-republicans-vot_n_805423.html */

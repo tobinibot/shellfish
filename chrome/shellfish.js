@@ -63,7 +63,8 @@ __shellfish__['IFRAME'] = [
     /flattr\.com\/button\/view/, /* http://www.jplayer.org/ */
     /widgets\.fbshare\.me/, /* http://mike.kaply.com/2011/06/23/understanding-the-corporate-impact */
     /widgets\.backtype\.com/, /* example page */
-    /vkontakte\.ru\/widget_(?:like|comments).php\?/
+    /vkontakte\.ru\/widget_(?:like|comments).php\?/,
+    /linksalpha\.com\/social/ /* http://kensegall.com/blog/2011/06/apple-revising-the-definition-of-pro/ */
 ];
 
 function allowContentToLoad(host, url, nodeName) {
