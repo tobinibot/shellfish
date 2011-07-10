@@ -311,6 +311,9 @@ a[href*="twitter.com/?status"], /* http://www.sportspickle.com/picture/4755/comc
 a[href*="twitter.com?status"],/* http://www.vanityfair.com/style/features/2011/01/ralph-lauren-garage-201101 */
 a[href*="twitter.com/intent/tweet?"], /* http://www.heise.de/newsticker/meldung/Witze-Welle-erklaert-Netzwerkprotokolle-1255783.html */
 
+/* TopBlogging */
+a[href*="topblogging.com/software"], /* http://www.daemonthread.com/2009/03/being-green-programmer.html */
+
 /* Upnews (ITALIAN) */
 a[href*="upnews.it/submit"], /* sociable code */
 
@@ -429,6 +432,9 @@ a[href="#share"], /* http://www.uncrate.com/men/cars/concept/1966-batmobile/ */
 .soc_icons, /* http://gazeta.ru/politics/2011/03/09_a_3549289.shtml */
 .article_tools_twitter, /* http://mlb.mlb.com/news/article.jsp?ymd=20110630&content_id=21202330&vkey=news_sf&c_id=sf&partnerId=rss_sf */
 .article_tools_facebook, /* http://mlb.mlb.com/news/article.jsp?ymd=20110630&content_id=21202330&vkey=news_sf&c_id=sf&partnerId=rss_sf */
+.fb_share, /* http://blog.seattlepi.com/thebigblog/2011/07/06/beware-giant-hogweed-and-its-burning-blinding-sap/#243-4 */
+#shareTools, /* http://www.scientificamerican.com/blog/post.cfm?id=status-update-on-the-launch-of-atla-2011-07-08 */
+#shareFlair, /* http://www.scientificamerican.com/blog/post.cfm?id=status-update-on-the-launch-of-atla-2011-07-08 */
 
 /* Squarespace */
 .share-item, /* http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html */
@@ -437,6 +443,7 @@ a[href="#share"], /* http://www.uncrate.com/men/cars/concept/1966-batmobile/ */
 /* New York Times */
 .entry-tools li.share, /* http://dealbook.nytimes.com/2011/01/06/s-e-c-questions-goldman-on-offering/ */
 .entry-tools li#twitter_item, /* http://artsbeat.blogs.nytimes.com/2011/01/07/the-week-in-ted-williams-so-far */
+.entry-tools li#facebook_item, /* http://gadgetwise.blogs.nytimes.com/2011/03/02/lacies-thunderbolt-enabled-hard-drive/ */
 .entry-tools li.timespeople_btn_recommend, /* http://artsbeat.blogs.nytimes.com/2011/01/07/the-week-in-ted-williams-so-far */
 #commentsWell #readerComments .feedback, /* http://artsbeat.blogs.nytimes.com/2011/01/07/the-week-in-ted-williams-so-far */
 .shareButton, /* http://artsbeat.blogs.nytimes.com/2011/01/07/the-week-in-ted-williams-so-far */
@@ -450,6 +457,9 @@ ul.toolsList #twitter_item, /* http://www.nytimes.com/2011/01/10/us/10green.html
 #digg_chick, #twit_chick,
 .badge_v2_facebook_ipad_app,
 .badge_v2_retweet_ipad_app,
-.fb_like_button_container
+.fb_like_button_container,
+.facebook_like_button, /* http://www.huffingtonpost.com/mike-ragogna/chatting-with-ben-folds-p_b_891001.html */
+.facebook-like-box, /* http://www.huffingtonpost.com/mike-ragogna/chatting-with-ben-folds-p_b_891001.html */
+.fb_like_contain /* http://www.huffingtonpost.com/mike-ragogna/chatting-with-ben-folds-p_b_891001.html */
 
 {display: none !important;}
