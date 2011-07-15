@@ -10,7 +10,7 @@ require 'crxmake'
 # CrxMake.make(
 #   :ex_dir => ".",
 #   :pkey   => "./shellfish.pem",
-#   :crx_output => "../shellfish-1.0.1.crx",
+#   :crx_output => "../shellfish-1.0.2.crx",
 #   :verbose => true,
 #   :ignorefile => /\.swp|\.rb|shellfish\.pem|old_|DS_Store/,
 #   :ignoredir => /\.(?:svn|git|cvs)/
@@ -20,7 +20,7 @@ require 'crxmake'
 # CrxMake.zip(
 #   :ex_dir => ".",
 #   :pkey   => "./shellfish.pem",
-#   :zip_output => "../shellfish-1.0.1.zip",
+#   :zip_output => "../shellfish-1.0.2.zip",
 #   :verbose => true,
 #   :ignorefile => /\.swp|\.rb|shellfish\.pem|old_|DS_Store/,
 #   :ignoredir => /\.(?:svn|git|cvs)/
