@@ -51,6 +51,7 @@ a[href*="designfloat.com/submit.php"], /* sociable code */
 a[href*="del.icio.us/post"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 a[href*="delicious.com/save"], /* http://rivals.yahoo.com/ncaa/football/news?slug=ycn-7427480 */
 a[href*="delicious.com/post"], /* http://www.smashingmagazine.com/2010/12/17/25-new-free-high-quality-fonts-typography/ */
+a[onclick*="del.icio.us/post"], /* http://www.theinquirer.net/inquirer/news/2093546/zuckerberg-closes-google-account-tracked */
 
 /* Digg */
 a[href*="digg.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
@@ -164,6 +165,7 @@ a[href*="linkarena.com/bookmarks/addlink"], /* sociable code */
 
 /* LinkedIn */
 a[href*="linkedin.com/shareArticle"], /* http://www.jennifer8lee.com/ */
+a[onclick*="linkedin.com/shareArticle"], /* http://www.theinquirer.net/inquirer/news/2093546/zuckerberg-closes-google-account-tracked */
 
 /* Linkter (HUNGARIAN) */
 a[href*="linkter.hu/index.php?action=suggest"], /* sociable code */
@@ -278,6 +280,9 @@ a[href*="slashdot.org/bookmark.pl"], /* sociable code */
 /* Sphinn */
 a[href*="sphinn.com/index.php?c"], /* sociable code */
 
+/* Strx Simple Sharing Sidebar Widget (WordPress) */
+#strx-simple-sharing-sidebar-widget, /* widget code */
+
 /* StumbleUpon */
 a[href*="stumbleupon.com/submit"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 *[onclick*="stumbleupon.com/submit"], /* http://imgur.com/Qmc11 */
@@ -310,6 +315,7 @@ a[href*="twitter.com/?status"], /* http://www.sportspickle.com/picture/4755/comc
 *[onclick*="twitter.com/share"], /* http://imgur.com/Qmc11 */
 a[href*="twitter.com?status"],/* http://www.vanityfair.com/style/features/2011/01/ralph-lauren-garage-201101 */
 a[href*="twitter.com/intent/tweet?"], /* http://www.heise.de/newsticker/meldung/Witze-Welle-erklaert-Netzwerkprotokolle-1255783.html */
+a[onclick*="twitter.com/home?status"], /* http://www.theinquirer.net/inquirer/news/2093546/zuckerberg-closes-google-account-tracked */
 
 /* TopBlogging */
 a[href*="topblogging.com/software"], /* http://www.daemonthread.com/2009/03/being-green-programmer.html */
@@ -415,7 +421,6 @@ ul.options li.t-share, ul.options li.t-facebook, ul.options li.t-twitter, ul.opt
 .storytools .recommendStoryTool, /* http://www.npr.org/2011/02/14/133697585/on-jeopardy-its-man-vs-this-machine */
 #social-vote, /* http://www.technewsdaily.com/jeopardy-vs-computer-how-ibms-watson-works-2161/ */
 .social, .social2, /* http://www.hollywoodreporter.com/news/esperanza-spalding-7-facts-grammys-99327 */
-.twitter-share, /* http://nicolasgallagher.com/css-drop-shadows-without-images/ */
 #cnetToolbarWrap, /* http://news.cnet.com/8301-13880_3-20034213-68.html?part=rss&subj=news&tag=2547-1_3-0-20 */
 .share-wrap, /* http://gizmodo.com/#!5520164/this-is-apples-next-iphone */
 #share-trigger, /* http://www.theregister.co.uk/2011/03/01/the_rise_and_rise_of_node_dot_js/ */
@@ -435,6 +440,8 @@ a[href="#share"], /* http://www.uncrate.com/men/cars/concept/1966-batmobile/ */
 .fb_share, /* http://blog.seattlepi.com/thebigblog/2011/07/06/beware-giant-hogweed-and-its-burning-blinding-sap/#243-4 */
 #shareTools, /* http://www.scientificamerican.com/blog/post.cfm?id=status-update-on-the-launch-of-atla-2011-07-08 */
 #shareFlair, /* http://www.scientificamerican.com/blog/post.cfm?id=status-update-on-the-launch-of-atla-2011-07-08 */
+#share-buttons-list, /* http://theamericandollar.bandcamp.com/album/free-winter-2010-compilation */
+#content-left .contentNavi_onemore, /* http://www.theinquirer.net/inquirer/news/2093546/zuckerberg-closes-google-account-tracked */
 
 /* Squarespace */
 .share-item, /* http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html */
@@ -460,6 +467,15 @@ ul.toolsList #twitter_item, /* http://www.nytimes.com/2011/01/10/us/10green.html
 .fb_like_button_container,
 .facebook_like_button, /* http://www.huffingtonpost.com/mike-ragogna/chatting-with-ben-folds-p_b_891001.html */
 .facebook-like-box, /* http://www.huffingtonpost.com/mike-ragogna/chatting-with-ben-folds-p_b_891001.html */
-.fb_like_contain /* http://www.huffingtonpost.com/mike-ragogna/chatting-with-ben-folds-p_b_891001.html */
+.fb_like_contain, /* http://www.huffingtonpost.com/mike-ragogna/chatting-with-ben-folds-p_b_891001.html */
+
+/* TechCrunch */
+.module-social-media-bar, /* http://techcrunch.com/2011/07/11/redesigning-techcrunch-we-picked-this-logo-just-to-piss-you-off/ */
+.module-share-widget, /* http://techcrunch.com/ */
+
+/* Stack Exchange(s) */
+.twitter-share, /* http://ux.stackexchange.com/questions/9016/good-metaphor-for-deleting-tags */
+.fb-share, /* http://ux.stackexchange.com/questions/9016/good-metaphor-for-deleting-tags */
+.linkedin-share /* http://ux.stackexchange.com/questions/9016/good-metaphor-for-deleting-tags */
 
 {display: none !important;}
