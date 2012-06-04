@@ -89,6 +89,7 @@ a[href*="facebook.com/share.php"], /* http://my.opera.com/dbloom/blog/2009/09/02
 a[href*="fark.com/cgi/fark/farkit.pl"], /* sociable code */
 a[href*="fark.com/cgi/farkit.pl"], /* http://www.talkingpointsmemo.com/archives/2011/01/they_just_dont_stop.php */
 a[href*="fark.com/cgi/submit.pl"], /* http://www.sfweekly.com/2010-08-11/news/ihelp-for-autism/ */
+a[href*="fark.com/cgi/fark/edit.pl?new_url"], /* http://www.spiegel.de/international/europe/europe-remains-a-question-of-war-and-peace-kohl-urges-germans-to-stay-committed-to-europe-a-818095.html */
 
 /* Faves */
 a[href*="faves.com/Authoring.aspx"], /* sociable code */
@@ -446,6 +447,8 @@ a[href="#share"], /* http://www.uncrate.com/men/cars/concept/1966-batmobile/ */
 .gig-share-bar-container, /* http://www.macworld.com/article/161154/2011/07/kootol_sues_apple.html */
 #top-share-toolbar, #bottom-share-toolbar,
 #retweetbtn, /* http://uxmag.com/design/five-low-hanging-ux-tips */
+.fb_like_btn, /*http://mlb.mlb.com/cutfour/article.jsp?content_id=28562998&partnerId=rss_sf */
+#spSocialBookmark, /* http://www.spiegel.de/international/europe/europe-remains-a-question-of-war-and-peace-kohl-urges-germans-to-stay-committed-to-europe-a-818095.html */
 
 /* Squarespace */
 .share-item, /* http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html */
