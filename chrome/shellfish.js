@@ -42,7 +42,11 @@ __shellfish__['SCRIPT'] = [
     /widgets\.backtype\.com/, /* example page */
     /newstrust\.net\/js\/submit_story\.js/, /* example page */
     /onlywire\.com\/btn/, /* example page */
-    /spiceworks\.com\/share\/spice\.js/ /* http://www.biztechmagazine.com/article/2012/05/apple-makes-green-data-center-pledge */
+    /spiceworks\.com\/share\/spice\.js/, /* http://www.biztechmagazine.com/article/2012/05/apple-makes-green-data-center-pledge */
+    /assets\.pinterest\.com\/js\/pinit\.js/, /* http://pinterest.com/about/goodies/ */
+    /asserts\.pinterest\.com\/js\/pinmarklet\.js/, /* http://www.behance.net/gallery/Frontage-Typeface-freefont/3292158 */
+    /svpply\.com\/api\/all\.js/, /* http://shop.ugmonk.com/product/premium-leather-mousepad-natural */
+    /evernote\.com\/noteit\.js/ /* http://www.fourhourworkweek.com/blog/2007/12/11/how-to-negotiate-like-an-indian-7-rules/ */
 ];
 
 __shellfish__['IFRAME'] = [
@@ -65,7 +69,9 @@ __shellfish__['IFRAME'] = [
     /widgets\.fbshare\.me/, /* http://mike.kaply.com/2011/06/23/understanding-the-corporate-impact */
     /widgets\.backtype\.com/, /* example page */
     /vkontakte\.ru\/widget_(?:like|comments).php\?/,
-    /linksalpha\.com\/social/ /* http://kensegall.com/blog/2011/06/apple-revising-the-definition-of-pro/ */
+    /linksalpha\.com\/social/, /* http://kensegall.com/blog/2011/06/apple-revising-the-definition-of-pro/ */
+    /plusone\.google\.com\/_\/\+1\/fastbutton/, /* http://snipplr.com/view/65794/adding-to-os-x-status-tray/ */
+    /thelovebucks\.com\/love/ /* http://www.sitepoint.com/unblock-port-80-on-windows-run-apache/ */
 ];
 
 function allowContentToLoad(host, url, nodeName) {

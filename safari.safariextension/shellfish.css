@@ -80,6 +80,9 @@ a[href*="dzone.com/links/add.html"], /* http://www.jennifer8lee.com/ */
 /* eKudos (DUTCH) */
 a[href*="ekudos.nl/artikel/nieuw"], /* sociable code */
 
+/* Evernote */
+a[onclick*="Evernote.doClip"], /* http://www.fourhourworkweek.com/blog/2007/12/11/how-to-negotiate-like-an-indian-7-rules/ */
+
 /* Facebook */
 a[href*="facebook.com/sharer.php"], /* http://nighthacks.com/roller/jag/entry/quite_the_firestorm */
 a[href*="facebook.com/share.php"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
@@ -241,6 +244,9 @@ a[href*="oneview.de/add"], /* http://www.heise.de/newsticker/meldung/Witze-Welle
 
 /* Ping.fm */
 a[href*="ping.fm/ref/?link"], /* sociable code */
+
+/* Pinterest */
+a[href*="pinterest.com/pin/create/button"], /* http://pinterest.com/about/goodies/ */
 
 /* Posterous */
 a[href*="posterous.com/share"], /* sociable code */
@@ -408,7 +414,6 @@ a[href*="talkingpointsmemo.com/twitter_share.php"], /* http://www.talkingpointsm
 .st_sharethis_custom, /* http://imgur.com/Qmc11 */
 li.aToolUnit.share, /* http://online.wsj.com/article/SB10001424052748704029704576088091711588606.html */
 li.aToolUnit.aToolType-social, /* http://online.wsj.com/article/SB10001424052748704029704576088091711588606.html */
-.st_sharethis, /* http://mashable.com/2011/01/17/banksy-identity-ebay */
 .facebookcontainer,/* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
 .socialtools, /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
 .tools .share, /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
@@ -449,6 +454,15 @@ a[href="#share"], /* http://www.uncrate.com/men/cars/concept/1966-batmobile/ */
 #retweetbtn, /* http://uxmag.com/design/five-low-hanging-ux-tips */
 .fb_like_btn, /*http://mlb.mlb.com/cutfour/article.jsp?content_id=28562998&partnerId=rss_sf */
 #spSocialBookmark, /* http://www.spiegel.de/international/europe/europe-remains-a-question-of-war-and-peace-kohl-urges-germans-to-stay-committed-to-europe-a-818095.html */
+.sharecolumn, /* http://www.fiercemobilehealthcare.com/story/drchrono-adds-insurance-eligibility-checks-payment-functionality/2012-06-07 */
+#pinterest-pin, /* http://www.behance.net/gallery/Frontage-Typeface-freefont/3292158 */
+div[id^="shareFacebook"], /* http://science.howstuffworks.com/transparent-aluminum-armor.htm */
+div[id^="shareFbLike"], /* http://science.howstuffworks.com/transparent-aluminum-armor.htm */
+div[id^="shareStumbleUpon"], /* http://science.howstuffworks.com/transparent-aluminum-armor.htm */
+div[id^="shareTweet"], /* http://science.howstuffworks.com/transparent-aluminum-armor.htm */
+div[id^="shareGooglePlusOne"], /* http://science.howstuffworks.com/transparent-aluminum-armor.htm */
+.sharebar, .sharetools, /* http://www.techdirt.com/articles/20120619/03230119379/fbi-dea-warn-that-ipv6-may-be-too-damn-anonymous.shtml */
+#sharebar, /* http://www.sitepoint.com/unblock-port-80-on-windows-run-apache/ */
 
 /* Squarespace */
 .share-item, /* http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html */
@@ -495,5 +509,16 @@ ul.toolsList #twitter_item, /* http://www.nytimes.com/2011/01/10/us/10green.html
 /* Cnet */
 .shareBar, /* http://news.cnet.com/8301-13579_3-57442944-37/photos-of-purported-iphone-5-leak-onto-the-web/ */
 .postByline .contentTools .share, /* http://download.cnet.com/8301-2007_4-20026355-12.html */
-#cnetToolbarWrap /* http://news.cnet.com/8301-13579_3-57442944-37/photos-of-purported-iphone-5-leak-onto-the-web/ */
+#cnetToolbarWrap, /* http://news.cnet.com/8301-13579_3-57442944-37/photos-of-purported-iphone-5-leak-onto-the-web/ */
+
+/* Mashable */
+.share-buttons, /* http://mashable.com/ */
+.po-stub.g-plusone, /* http://mashable.com/ */
+.social-stub.facebook, /*http://mashable.com/2012/06/12/new-twitter-logo-art/ */
+.social-stub.twitter,
+.social-stub.googleplus,
+.social-stub.linkedin,
+.social-stub.pinterest,
+.social-stub.stumbleupon,
+.st_sharethis /* http://mashable.com/2011/01/17/banksy-identity-ebay */
 {display: none !important;}
