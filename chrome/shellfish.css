@@ -70,6 +70,7 @@ a[href*="diigo.com/post"], /* sociable code */
 
 /* DotNetKicks.com */
 a[href*="dotnetkicks.com/kick"], /* http://www.jennifer8lee.com/ */
+a[href*="dotnetkicks.com/submit"], /* http://www.troyhunt.com/2012/07/heres-why-we-keep-getting-hacked-clear.html */
 
 /* DotNet Shoutout */
 a[href*="dotnetshoutout.com/Submit"], /* http://www.jennifer8lee.com/ */
@@ -428,7 +429,7 @@ ul.options li.t-share, ul.options li.t-facebook, ul.options li.t-twitter, ul.opt
 .storytools .shareStoryTool,
 .storytools .recommendStoryTool, /* http://www.npr.org/2011/02/14/133697585/on-jeopardy-its-man-vs-this-machine */
 #social-vote, /* http://www.technewsdaily.com/jeopardy-vs-computer-how-ibms-watson-works-2161/ */
-.social, .social2, /* http://www.hollywoodreporter.com/news/esperanza-spalding-7-facts-grammys-99327 */
+.social2, /* http://www.hollywoodreporter.com/news/esperanza-spalding-7-facts-grammys-99327 */
 .share-wrap, /* http://gizmodo.com/#!5520164/this-is-apples-next-iphone */
 #share-trigger, /* http://www.theregister.co.uk/2011/03/01/the_rise_and_rise_of_node_dot_js/ */
 div #main_content div#floating_tools, /* http://www.computerworld.com/s/article/9214022/Google_s_Chrome_untouched_at_Pwn2Own_hack_match */
