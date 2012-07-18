@@ -1,5 +1,5 @@
-var __allowedHosts__ = [/facebook.com$/, /twitter.com$/, /addthis.com$/, /digg.com$/, /reddit.com$/,
-    /delicious.com$/, /stumbleupon.com$/, /klout.com$/];
+var __allowedHosts__ = [/facebook.com$/, /twitter.com$/, /addthis.com$/, /digg.com$/, /reddit.com$/, 
+    /delicious.com$/, /stumbleupon.com$/, /klout.com$/, /localhost/, /127\.0\.0\.1/];
 
 var __shellfish__ = new Object();
 __shellfish__['SCRIPT'] = [
