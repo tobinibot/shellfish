@@ -1,0 +1,5 @@
+{
+  "script": [
+    ".*simple-share-buttons-adder/js/ssba\\.min\\.js"
+  ]
+}

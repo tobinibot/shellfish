@@ -1,0 +1,15 @@
+{
+  "script": [
+    "social-share-kit\\.js"
+  ],
+  "style-sheet": [
+    "social-share-kit\\.css"
+  ],
+  "font": [
+    "social-share-kit\\.eot",
+    "social-share-kit\\.svg",
+    "social-share-kit\\.ttf",
+    "social-share-kit\\.woff",
+    "social-share-kit\\.woff2"
+  ]
+}

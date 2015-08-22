@@ -1,0 +1,6 @@
+{
+  "script": [
+    ".*socialite\\.js",
+    ".*socialite\\.min\\.js"
+  ]
+}
