@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Tobin Juday</string>
+	<key>Builder Version</key>
+	<string>11601.1.32.10</string>
+	<key>CFBundleDisplayName</key>
+	<string>Shellfish</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.thesassyinternet.shellfish</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>2.0.0</string>
+	<key>Content</key>
+	<dict>
+		<key>Content Blocker</key>
+		<string>blocked-content-desktop.json</string>
+	</dict>
+	<key>Description</key>
+	<string>Hides all of those pesky “share this article” buttons all over your Internet.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Website</key>
+	<string>https://thesassyinternet.com/shellfish</string>
+</dict>
+</plist>
