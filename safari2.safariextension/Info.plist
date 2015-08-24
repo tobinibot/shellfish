@@ -19,7 +19,7 @@
 	<key>Content</key>
 	<dict>
 		<key>Content Blocker</key>
-		<string>blocked-content.json</string>
+		<string>blocked-content-desktop.json</string>
 	</dict>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
