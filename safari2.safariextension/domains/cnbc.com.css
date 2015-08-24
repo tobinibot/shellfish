@@ -1,0 +1,9 @@
+/* desktop */
+#social_bar_top_gig_containerParent,
+#social-tools-panel_gig_containerParent,
+#social-tools-panel,
+#social_bar_top,
+
+/* mobile */
+#social-tools-panel
+{display: none}
