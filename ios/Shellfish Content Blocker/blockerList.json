@@ -1,0 +1,2222 @@
+ [
+  {
+  "action": {
+  "selector": ".addthis_toolbox",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"addthis.com/bookmark.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "*[class^=\"addthis_button\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"addtoany.com/share_save\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"lifestream.aol.com/share\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"api.awe.sm/url/share\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"barrapunto.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"bitacoras.com/anotaciones\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"blinklist.com/index.php?Action=Blink/addblink.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"blogmarks.net/my/new.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"blogospherenews.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"cimlap.blogter.hu/index.php?action=suggest_link\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"cimlap.blogter.hu/index.php?action=suggest_link\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"bx.businessweek.com/api/add-article\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"connotea.org/addpopup\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"current.com/clipper.htm\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"designfloat.com/submit.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"del.icio.us/post\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"delicious.com/save\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"delicious.com/post\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[onclick*=\"del.icio.us/post\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"digg.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "*[onclick*=\"digg.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"digg.com/tools/diggthis/confirm\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"diggita.it/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".dd_post_share",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#dd_ajax_float",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"diigo.com/post\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"dotnetkicks.com/kick\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"dotnetkicks.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"dotnetshoutout.com/Submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"dzone.com/links/add.html\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"ekudos.nl/artikel/nieuw\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[onclick*=\"Evernote.doClip\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"facebook.com/sharer.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"facebook.com/share.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "*[onclick*=\"facebook.com/sharer.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"facebook.com/dialog/feed?\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"fark.com/cgi/fark/farkit.pl\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"fark.com/cgi/farkit.pl\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"fark.com/cgi/submit.pl\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"fark.com/cgi/fark/edit.pl?new_url\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"faves.com/Authoring.aspx\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"friendfeed.com/share\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"friendfeed.com/?url\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[onclick*=\"friendfeed.com/share\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"flattr.com/thing\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"fsdaily.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "iframe[src*=\"designbump.com/sites/all/moduels/drigg_external\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"designbump.com/submit?\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"globalgrind.com/submission/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"google.com/bookmarks/mark\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"google.com/buzz/post\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[onclick*=\"google.com/buzz/post\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"google.com/reader/link\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"gwar.pl/DodajGwar.html\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"news.ycombinator.com/submitlink\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"news.ycombinator.com/submitlink\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"hellotxt.com/?status\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"hemidemi.com/user_bookmark/new\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"hyves.nl/profilemanage/add\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"identi.ca/notice/new\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"indianpad.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"kirtsy.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"kwoff.com/submit.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"laaik.it/NewStoryCompact.aspx\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"latafanera.cat/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"linkagogo.com/go/AddNoPopup\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"linkarena.com/bookmarks/addlink\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"linkedin.com/shareArticle\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[onclick*=\"linkedin.com/shareArticle\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"linkter.hu/index.php?action=suggest\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".postContent .postfooter-secondaryActions",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".share-button-container",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".share-button",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"meneame.net/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"favorites.live.com/quickadd.aspx\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"spaces.live.com/BlogIt.aspx\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"mister-wong.com/addurl\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"mister-wong.de/index.php?action=addurl\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"mister-wong.com/add_url\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"mister-wong.de/addurl\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"mixx.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[onclick*=\"mixx.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"mob.com/share.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"reporter.nl.msn.com/?fn=contribute\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"reporter.es.msn.com/?fn=contribute\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"muti.co.za/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"myshare.url.com.tw/index.php?func=newurl\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"myspace.com/index.cfm?fuseaction=postto\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"myspace.com/Modules/PostTo\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"n4g.com/tips.aspx\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"netvibes.com/share\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"netvouz.com/action/submitBookmark\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"newsider.de/submit.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"newstube.de/submit.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"newsvine.com/_wine/save\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"newsvine.com/_tools/seed\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"view.nowpublic.com/?src=\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"nujij.nl/jij.lynkx\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"oneview.de/add\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"ping.fm/ref/?link\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"pinterest.com/pin/create/button\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"posterous.com/share\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"propeller.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"propeller.com/story/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"reddit.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "*[onclick*=\"reddit.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"reddit.com/r/chrome/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"scoopeo.com/scoop/new\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"segnalo.alice.it/post.html\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".shr-bookmarks",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".sharedaddy",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"shetoldme.com/publish\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"simpy.com/simpy/LinkAdd\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".stbutton",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"slashdot.org/bookmark.pl\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".sociable",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"sphinn.com/index.php?c\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"spiceworks.com/info/addlink\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#strx-simple-sharing-sidebar-widget",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"stumbleupon.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "*[onclick*=\"stumbleupon.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"technorati.com/faves?add\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"technorati.com/search\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"technorati.com/faves/?add\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"technorati.com/faves?sub=addfavbtn\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"technorati.com/signup\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"thewebblend.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"thisnext.com/pick/new/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"tipd.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"tumblr.com/share\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"twitter.com/share\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"twitter.com/home?status\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"twitter.com/home/?status\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"twitter.com/share\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"twitter.com/?status\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "*[onclick*=\"twitter.com/share\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"twitter.com?status\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"twitter.com/intent/tweet?\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[onclick*=\"twitter.com/home?status\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"topblogging.com/software\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"upnews.it/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"rec6.via6.com/link.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"viadeo.com/shareit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"vkontakte.ru/share.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "iframe[src*=\"vkontakte.ru/widget_like.php?\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "iframe[src*=\"vkontakte.ru/widget_comments.php?\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"webnews.de/einstellen\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"webride.org/discuss/split.php\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"wikio.com/vote\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"wikio.com/sharethis\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"wikio.fr/vote\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"wikio.it/vote\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"wists.com/s.php?c\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"wykop.pl/dodai\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"xerpi.com/block/add_link\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"bookmarks.yahoo.com/toolbar/savebm\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"search.yahoo.com/myresults/bookmarklet\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "form[action*=\"buzz.yahoo.com/vote\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"buzz.yahoo.com/buzz\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"buzz.yahoo.com/submit\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"buzz.yahoo.com/article\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"yigg.de/neu\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"douban.com/recommend\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"shuqian.qq.com/post\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "a[href*=\"blogger.com/share-post\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social-share",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*bloomberg\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social-share-with-slideout",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*bloomberg\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".share",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*businessinsider\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#share_control",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*buzzfeed\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".share-box",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*buzzfeed\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".bottom_shares",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*buzzfeed\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#social_bar_top_gig_containerParent",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*cnbc\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#social-tools-panel_gig_containerParent",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*cnbc\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#social-tools-panel",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*cnbc\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#social_bar_top",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*cnbc\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social-tools-panel",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*cnbc\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".fx-share",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*fedex\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".socialize",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*forbes\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social-expand-control",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*forbes\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".tweet-this",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*forbes\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#social_badges",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*huffingtonpost\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#floating-share-component-sticky-wrapper",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*huffingtonpost\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social-shares-wrap",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*mashable\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".shares",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*mashable\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".microcontent-shares",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*mashable\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".microcontent-wrapper:before",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*mashable\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".sharable footer",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*mashable\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".article-shares-links",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*mashable\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "button[data-sign-in-action=\"show-share-popover\"]",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*medium\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".sharetools",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*nytimes\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".inline-share-wrapper",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*nytimes\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".fixed-share-nav-outer",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*nytimes\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#sharer",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*playboy\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".tell-your-friends",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*playboy\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".sharing-buttons",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*slate\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social-cluster",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*techcrunch\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social-share",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*techcrunch\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*theguardian\\.co\\.uk/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".js-sharecount",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*theguardian\\.co\\.uk/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*theguardian\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".js-sharecount",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*theguardian\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".article-share-tools",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*theonion\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".share-container",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*theonion\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".entry-social",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*today\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".player-social",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*today\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social-share-links",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*tutsplus\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".component-social-share",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*vanityfair\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".top-sharebar-wrapper",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*washingtonpost\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social-tools-wrapper-bottom",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*washingtonpost\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#sharing",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*wired\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#article_tools",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*wsj\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*wsj\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".share-btns",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*yahoo\\.com/.*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#csbwfs-delaydiv",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".csbwfs-social-widget",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".gs-bar",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".getsocial",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": "#share42",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".sharrre",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".ssba.ssba-wrap",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".ssk-sticky",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".ssk-group",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "selector": ".social-buttons.cf",
+  "type": "css-display-none"
+  },
+  "trigger": {
+  "url-filter": ".*"
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": "getsocial\\.io/widget",
+  "resource-type": [
+					"script"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": "share42\\.js",
+  "resource-type": [
+					"script"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": "jquery\\.sharrre",
+  "resource-type": [
+					"script"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": ".*simple-share-buttons-adder/js/ssba\\.min\\.js",
+  "resource-type": [
+					"script"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": "social-share-kit\\.js",
+  "resource-type": [
+					"script"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": "social-share-kit\\.css",
+  "resource-type": [
+					"style-sheet"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": "social-share-kit\\.eot",
+  "resource-type": [
+					"font"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": "social-share-kit\\.svg",
+  "resource-type": [
+					"font"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": "social-share-kit\\.ttf",
+  "resource-type": [
+					"font"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": "social-share-kit\\.woff",
+  "resource-type": [
+					"font"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": "social-share-kit\\.woff2",
+  "resource-type": [
+					"font"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": ".*socialite\\.js",
+  "resource-type": [
+					"script"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  },
+  {
+  "action": {
+  "type": "block"
+  },
+  "trigger": {
+  "url-filter": ".*socialite\\.min\\.js",
+  "resource-type": [
+					"script"
+					],
+  "load-type": [
+				"first-party",
+				"third-party"
+				]
+  }
+  }
+  ]

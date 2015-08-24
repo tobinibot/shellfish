@@ -4,17 +4,18 @@
     // Register for the message events.
     safari.application.addEventListener("message", handleMessage, false);
 
-var __allowedHosts__ = [/facebook.com$/, /twitter.com$/, /addthis.com$/, /digg.com$/, /reddit.com$/,
+    // var hideFlattr = safari.extension.settings.hide_flattr;
+
+	var __allowedHosts__ = [/facebook.com$/, /twitter.com$/, /addthis.com$/, /digg.com$/, /reddit.com$/,
         /delicious.com$/, /stumbleupon.com$/, /klout.com$/, /localhost/, /127\.0\.0\.1/];
 
     	var __shellfish__ = new Object();
 		__shellfish__['SCRIPT'] = [
-		    /platform\.twitter\.com\/widgets\.js/, /* http://www.sparrowmailapp.com/ */
+		    // /platform\.twitter\.com\/widgets\.js/, /* http://www.sparrowmailapp.com/ */
 		    /connect\.facebook\.net/, /* http://www.sparrowmailapp.com/ */
 		    /addthis\.com\/js\/\d+\/addthis_widget\.js/, /* http://www.developerit.com/2010/05/21/undefined-method-get-with-sinatra */
 		    /tweetmeme\.com\/i\/scripts\/button.js/, /* http://www.goodwebpractices.com/roi/track-downloads-in-google-analytics-automatically.html */
 		    /fbcdn\.net\/connect\.php\/js\/FB\.Share/, /* http://nighthacks.com/roller/jag/entry/quite_the_firestorm */
-		    /api\.flattr\.com\/button\/load\.js/, /* http://giorgiosironi.blogspot.com/2010/08/google-never-removed-oracle-from-its.html */
 		    /sharethis\.com\/widget\/stblogger\.js/, /* http://giorgiosironi.blogspot.com/2010/08/google-never-removed-oracle-from-its.html */
 		    /widgets\.digg\.com\/buttons\.js/, /* http://download.cnet.com/8301-2007_4-20026355-12.html */
 		    /stumbleupon\.com\/hostedbadge\.php/, /* http://www.dragonblogger.com/firebug-google-chrome/ */
@@ -71,7 +72,6 @@ var __allowedHosts__ = [/facebook.com$/, /twitter.com$/, /addthis.com$/, /digg.c
 		    /okcupid\.com\/twitter\?blogurl/, /* http://blog.okcupid.com/index.php/the-mathematics-of-beauty/ */
 		    /sfgate\.com\/js\/utils\/facebook_load\.html/, /* http://www.sfgate.com/cgi-bin/article.cgi?f=/n/a/2011/01/24/financial/f161842S08.DTL&tsp=1 */
 		    /media\/system\/twittertweeter\.php/, /* http://www.technewsdaily.com/jeopardy-vs-computer-how-ibms-watson-works-2161/ */
-		    /flattr\.com\/button\/view/, /* http://www.jplayer.org/ */
 		    /widgets\.fbshare\.me/, /* http://mike.kaply.com/2011/06/23/understanding-the-corporate-impact */
 		    /widgets\.backtype\.com/, /* example page */
 		    /vkontakte\.ru\/widget_(?:like|comments).php\?/,
@@ -80,6 +80,10 @@ var __allowedHosts__ = [/facebook.com$/, /twitter.com$/, /addthis.com$/, /digg.c
 		    /thelovebucks\.com\/love/ /* http://www.sitepoint.com/unblock-port-80-on-windows-run-apache/ */
 		];
 
+	var __flattr__ = {};
+	__flattr__['SCRIPT'] = /api\.flattr\.com\/button\/load\.js/; /* http://www.jplayer.org/ */
+	__flattr__['IFRAME'] = /flattr\.com\/button\/view/; /* http://giorgiosironi.blogspot.com/2010/08/google-never-removed-oracle-from-its.html */
+
     function allowContentToLoad(host, url, nodeName) {
         // allow all resources for certain hosts
         for (var i = 0; i < __allowedHosts__.length; i++) {
@@ -87,6 +91,11 @@ var __allowedHosts__ = [/facebook.com$/, /twitter.com$/, /addthis.com$/, /digg.c
                 return true;
             }
         }
+
+        // if (url.match(__flattr__[nodeName]) && hideFlattr) {
+        // 	console.log("####### HIDING FLATTR BUTTONS #########");
+        // 	return false;
+        // }
 
         var x = __shellfish__[nodeName];
         if (x) {
@@ -113,4 +122,11 @@ var __allowedHosts__ = [/facebook.com$/, /twitter.com$/, /addthis.com$/, /digg.c
                 break;
         }
     }
+
+	// function settingsChanged(event) {
+	// 	if (event.key == "hide_flattr")
+	// 		hideFlattr = event.newValue;
+ //    }
+
+    // safari.extension.settings.addEventListener("change", settingsChanged, false);
 </script>
