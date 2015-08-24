@@ -77,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				029E4E1D1B8B08B800E7BE4B /* Shellfish */,
-				029E4E351B8B091500E7BE4B /* Shellfish Content Blocker */,
+				029E4E351B8B091500E7BE4B /* content-blocker */,
 				029E4E1C1B8B08B800E7BE4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,14 +104,14 @@
 			path = Shellfish;
 			sourceTree = "<group>";
 		};
-		029E4E351B8B091500E7BE4B /* Shellfish Content Blocker */ = {
+		029E4E351B8B091500E7BE4B /* content-blocker */ = {
 			isa = PBXGroup;
 			children = (
 				029E4E361B8B091500E7BE4B /* blockerList.json */,
 				029E4E381B8B091500E7BE4B /* ActionRequestHandler.swift */,
 				029E4E3A1B8B091500E7BE4B /* Info.plist */,
 			);
-			path = "Shellfish Content Blocker";
+			path = "content-blocker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,6 +415,7 @@
 				029E4E3F1B8B091500E7BE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
