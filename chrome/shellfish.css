@@ -88,6 +88,7 @@ a[onclick*="Evernote.doClip"], /* http://www.fourhourworkweek.com/blog/2007/12/1
 a[href*="facebook.com/sharer.php"], /* http://nighthacks.com/roller/jag/entry/quite_the_firestorm */
 a[href*="facebook.com/share.php"], /* http://my.opera.com/dbloom/blog/2009/09/02/secret-opera-only-feature-in-gmail */
 *[onclick*="facebook.com/sharer.php"], /* http://imgur.com/Qmc11 */
+a[href*="facebook.com/dialog/feed?"], /* http://www.guardian.co.uk/sport/2012/jul/20/coe-olympics-sponsorship-row */
 
 /* Fark */
 a[href*="fark.com/cgi/fark/farkit.pl"], /* sociable code */
@@ -174,6 +175,9 @@ a[onclick*="linkedin.com/shareArticle"], /* http://www.theinquirer.net/inquirer/
 
 /* Linkter (HUNGARIAN) */
 a[href*="linkter.hu/index.php?action=suggest"], /* sociable code */
+
+/* Medium */
+.postContent .postfooter-secondaryActions, /* https://medium.com/@RickWebb/the-economics-of-star-trek-29bab88d50 */
 
 /* Meebo */
 .share-button-container, /* http://business.meebo.com/demo/ */
@@ -269,6 +273,9 @@ a[href*="segnalo.alice.it/post.html"], /* sociable code */
 
 /* SexyBookmarks */
 .shr-bookmarks, /* http://letmein.at/js/multi-user-real-time-heatmaps/ */
+
+/* ShareDaddy */
+.sharedaddy, /* http://singztechmusings.wordpress.com/2011/05/02/how-to-resolve-java-security-cert-certpathvalidatorexception-path-does-not-chain-with-any-of-the-trust-anchors-error/ */
 
 /* SheToldMe */
 a[href*="shetoldme.com/publish"], /* sociable code */
@@ -464,6 +471,10 @@ div[id^="shareTweet"], /* http://science.howstuffworks.com/transparent-aluminum-
 div[id^="shareGooglePlusOne"], /* http://science.howstuffworks.com/transparent-aluminum-armor.htm */
 .sharebar, .sharetools, /* http://www.techdirt.com/articles/20120619/03230119379/fbi-dea-warn-that-ipv6-may-be-too-damn-anonymous.shtml */
 #sharebar, /* http://www.sitepoint.com/unblock-port-80-on-windows-run-apache/ */
+.share-links, /* http://www.guardian.co.uk/sport/2012/jul/20/coe-olympics-sponsorship-row */
+#share_wrap, /* http://www.squidoo.com/how-to-punctuate-any-sentence-with-grace-and-ease */
+.share-tools, /* http://gigaom.com/video/why-arrested-development-on-netflix-could-change-everything/ */
+
 
 /* Squarespace */
 .share-item, /* http://highscalability.com/blog/2011/2/22/is-nodejs-becoming-a-part-of-the-stack-simplegeo-says-yes.html */
@@ -480,6 +491,9 @@ ul.toolsList #facebook_item, /* http://www.nytimes.com/2011/01/10/us/10green.htm
 ul.toolsList #twitter_item, /* http://www.nytimes.com/2011/01/10/us/10green.html */
 #skimmerArticleViewer #articleTools .twitter, /* http://www.nytimes.com/skimmer/#/Top+News//www.nytimes.com/2011/05/03/us/politics/03obama.html */
 #skimmerArticleViewer #articleTools .facebook, /* http://www.nytimes.com/skimmer/#/Top+News//www.nytimes.com/2011/05/03/us/politics/03obama.html */
+.shareTools li[data-share="facebook"],
+.shareTools li[data-share="twitter"],
+.shareTools li[data-share="google"],
 
 /* Huffington Post */
 /* http://www.huffingtonpost.com/2011/01/06/two-house-republicans-vot_n_805423.html */
@@ -506,6 +520,7 @@ ul.toolsList #twitter_item, /* http://www.nytimes.com/2011/01/10/us/10green.html
 .ymsb-module.ymsb-facebook-module, /* http://news.yahoo.com/casey-anthony-plans-appeal-convictions-lying-164116184.html */
 .ymsb-module.ymsb-retweet-module, /* http://news.yahoo.com/casey-anthony-plans-appeal-convictions-lying-164116184.html */
 .ymsb-module.ymsb-inshare-module, /* http://news.yahoo.com/nintendo-admits-defeat-lowers-nintendo-3ds-price-169-144501722.html */
+#mediasocialbuttonseasy_container, /* http://finance.yahoo.com/news/greenway-adds-cloud-based-primepatient-123000120.html */
 
 /* Cnet */
 .shareBar, /* http://news.cnet.com/8301-13579_3-57442944-37/photos-of-purported-iphone-5-leak-onto-the-web/ */
@@ -521,5 +536,9 @@ ul.toolsList #twitter_item, /* http://www.nytimes.com/2011/01/10/us/10green.html
 .social-stub.linkedin,
 .social-stub.pinterest,
 .social-stub.stumbleupon,
-.st_sharethis /* http://mashable.com/2011/01/17/banksy-identity-ebay */
+.st_sharethis, /* http://mashable.com/2011/01/17/banksy-identity-ebay */
+
+/* Slate */
+#share-box-flank, /* http://www.slate.com/articles/sports/sports_nut/2013/02/super_bowl_xlvii_ravens_beat_49ers_34_31_after_a_record_return_a_blackout.html */
+.sl-chunky-fb-share
 {display: none !important;}
