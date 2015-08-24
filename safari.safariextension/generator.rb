@@ -136,3 +136,5 @@ if debug
 end
 File.open('blocked-content-desktop.json', 'w') { |f| f.write(desktop_json) }
 File.open('blocked-content-mobile.json', 'w') { |f| f.write(mobile_json) }
+
+FileUtils.mv('blocked-content-mobile.json', '../ios/content-blocker/blockerList.json', verbose: true)
