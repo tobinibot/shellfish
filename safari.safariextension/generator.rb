@@ -1,6 +1,10 @@
 require 'css_parser'
 require 'json'
+require 'FileUtils'
 
+debug = ARGV.length > 0 && ARGV.include?('-d')
+
+puts 'processing "standard.css"'
 parser = CssParser::Parser.new
 parser.load_uri!('file:standard.css')
 
@@ -22,6 +26,7 @@ parser.each_selector() do |selector, declarations, specificity|
 end
 
 # domains
+puts 'processing css in "domains" folder'
 Dir.glob('domains/*.css').each do |file|
   parser = CssParser::Parser.new # make sure we reset the parser
   parser.load_uri!("file:#{file}")
@@ -51,6 +56,7 @@ Dir.glob('domains/*.css').each do |file|
 end
 
 # components
+puts 'processing css in "components" folder'
 Dir.glob('components/*.css').each do |file|
   parser = CssParser::Parser.new # make sure we reset the parser
   parser.load_uri!("file:#{file}")
@@ -77,6 +83,7 @@ Dir.glob('components/*.css').each do |file|
   end
 end
 
+puts 'processing json in "components" folder'
 Dir.glob('components/*.json').each do |file|
   filters = JSON.parse(File.read(file))
 
@@ -120,8 +127,12 @@ end
 #   end
 # end
 
+puts 'building content blocker files'
 desktop_json = JSON.pretty_generate(desktop_array)
 mobile_json = JSON.pretty_generate(mobile_array)
-puts desktop_json
+if debug
+  puts desktop_json
+  puts mobile_json
+end
 File.open('blocked-content-desktop.json', 'w') { |f| f.write(desktop_json) }
 File.open('blocked-content-mobile.json', 'w') { |f| f.write(mobile_json) }
