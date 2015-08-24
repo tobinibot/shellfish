@@ -4,7 +4,8 @@ require 'json'
 parser = CssParser::Parser.new
 parser.load_uri!('file:standard.css')
 
-array = []
+desktop_array = []
+mobile_array = []
 
 parser.each_selector() do |selector, declarations, specificity|
   hash = {
@@ -16,7 +17,8 @@ parser.each_selector() do |selector, declarations, specificity|
       'url-filter' => '.*'
     }
   }
-  array << hash
+  desktop_array << hash
+  mobile_array << hash
 end
 
 # domains
@@ -26,6 +28,11 @@ Dir.glob('domains/*.css').each do |file|
 
   parser.each_selector() do |selector, declarations, specificity|
     domain_name = file.sub(/^.*\//, '').sub(/\.css$/, '').gsub(/\./, '\\.')
+    desktop_only = selector.end_with?(':desktop-only')
+    mobile_only = selector.end_with?(':mobile-only')
+    selector = selector.sub(/:mobile-only$/, '').sub(/:desktop-only$/, '')
+
+
     hash = {
       action: {
         selector: selector,
@@ -35,7 +42,9 @@ Dir.glob('domains/*.css').each do |file|
         'url-filter' => ".*#{domain_name}/.*"
       }
     }
-    array << hash
+
+    desktop_array << hash unless mobile_only
+    mobile_array << hash unless desktop_only
   end
 end
 
@@ -45,7 +54,12 @@ Dir.glob('components/*.css').each do |file|
   parser.load_uri!("file:#{file}")
 
   parser.each_selector() do |selector, declarations, specificity|
+    desktop_only = selector.end_with?(':desktop-only')
+    mobile_only = selector.end_with?(':mobile-only')
+    selector = selector.sub(/:mobile-only$/, '').sub(/:desktop-only$/, '')
+
     domain_name = file.sub(/^.*\//, '').sub(/\.css$/, '').gsub(/\./, '\\.')
+
     hash = {
       action: {
         selector: selector,
@@ -55,7 +69,9 @@ Dir.glob('components/*.css').each do |file|
         'url-filter' => ".*"
       }
     }
-    array << hash
+
+    desktop_array << hash unless mobile_only
+    mobile_array << hash unless desktop_only
   end
 end
 
@@ -74,7 +90,8 @@ Dir.glob('components/*.json').each do |file|
           'load-type' => ['first-party', 'third-party']
         }
       }
-      array << hash
+      desktop_array << hash
+      mobile_array << hash
     end
   end
 end
@@ -101,6 +118,8 @@ end
 #   end
 # end
 
-json = JSON.pretty_generate(array)
-puts json
-File.open('blocked-content.json', 'w') { |f| f.write(json) }
+desktop_json = JSON.pretty_generate(desktop_array)
+mobile_json = JSON.pretty_generate(mobile_array)
+puts desktop_json
+File.open('blocked-content-desktop.json', 'w') { |f| f.write(desktop_json) }
+File.open('blocked-content-mobile.json', 'w') { |f| f.write(mobile_json) }

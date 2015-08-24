@@ -1,2 +1,4 @@
-.sharetools
+.sharetools,
+.inline-share-wrapper:mobile-only,
+.fixed-share-nav-outer:mobile-only
 {display: none;}
