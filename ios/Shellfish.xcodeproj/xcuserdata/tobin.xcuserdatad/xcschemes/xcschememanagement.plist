@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Shellfish Content Blocker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Shellfish.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>029E4E1A1B8B08B800E7BE4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>029E4E331B8B091500E7BE4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

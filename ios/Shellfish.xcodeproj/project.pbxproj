@@ -12,7 +12,34 @@
 		029E4E241B8B08B800E7BE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029E4E221B8B08B800E7BE4B /* Main.storyboard */; };
 		029E4E261B8B08B800E7BE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029E4E251B8B08B800E7BE4B /* Assets.xcassets */; };
 		029E4E291B8B08B800E7BE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029E4E271B8B08B800E7BE4B /* LaunchScreen.storyboard */; };
+		029E4E371B8B091500E7BE4B /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 029E4E361B8B091500E7BE4B /* blockerList.json */; };
+		029E4E391B8B091500E7BE4B /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E4E381B8B091500E7BE4B /* ActionRequestHandler.swift */; };
+		029E4E3D1B8B091500E7BE4B /* Shellfish Content Blocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 029E4E341B8B091500E7BE4B /* Shellfish Content Blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		029E4E3B1B8B091500E7BE4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 029E4E131B8B08B800E7BE4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 029E4E331B8B091500E7BE4B;
+			remoteInfo = "Shellfish Content Blocker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		029E4E411B8B091500E7BE4B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				029E4E3D1B8B091500E7BE4B /* Shellfish Content Blocker.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		029E4E1B1B8B08B800E7BE4B /* Shellfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shellfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +49,21 @@
 		029E4E251B8B08B800E7BE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		029E4E281B8B08B800E7BE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		029E4E2A1B8B08B800E7BE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		029E4E341B8B091500E7BE4B /* Shellfish Content Blocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Shellfish Content Blocker.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		029E4E361B8B091500E7BE4B /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		029E4E381B8B091500E7BE4B /* ActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequestHandler.swift; sourceTree = "<group>"; };
+		029E4E3A1B8B091500E7BE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		029E4E181B8B08B800E7BE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		029E4E311B8B091500E7BE4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				029E4E1D1B8B08B800E7BE4B /* Shellfish */,
+				029E4E351B8B091500E7BE4B /* Shellfish Content Blocker */,
 				029E4E1C1B8B08B800E7BE4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				029E4E1B1B8B08B800E7BE4B /* Shellfish.app */,
+				029E4E341B8B091500E7BE4B /* Shellfish Content Blocker.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +104,16 @@
 			path = Shellfish;
 			sourceTree = "<group>";
 		};
+		029E4E351B8B091500E7BE4B /* Shellfish Content Blocker */ = {
+			isa = PBXGroup;
+			children = (
+				029E4E361B8B091500E7BE4B /* blockerList.json */,
+				029E4E381B8B091500E7BE4B /* ActionRequestHandler.swift */,
+				029E4E3A1B8B091500E7BE4B /* Info.plist */,
+			);
+			path = "Shellfish Content Blocker";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +124,34 @@
 				029E4E171B8B08B800E7BE4B /* Sources */,
 				029E4E181B8B08B800E7BE4B /* Frameworks */,
 				029E4E191B8B08B800E7BE4B /* Resources */,
+				029E4E411B8B091500E7BE4B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				029E4E3C1B8B091500E7BE4B /* PBXTargetDependency */,
 			);
 			name = Shellfish;
 			productName = Shellfish;
 			productReference = 029E4E1B1B8B08B800E7BE4B /* Shellfish.app */;
 			productType = "com.apple.product-type.application";
+		};
+		029E4E331B8B091500E7BE4B /* Shellfish Content Blocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 029E4E401B8B091500E7BE4B /* Build configuration list for PBXNativeTarget "Shellfish Content Blocker" */;
+			buildPhases = (
+				029E4E301B8B091500E7BE4B /* Sources */,
+				029E4E311B8B091500E7BE4B /* Frameworks */,
+				029E4E321B8B091500E7BE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shellfish Content Blocker";
+			productName = "Shellfish Content Blocker";
+			productReference = 029E4E341B8B091500E7BE4B /* Shellfish Content Blocker.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,6 +163,9 @@
 				ORGANIZATIONNAME = "Tobin Juday";
 				TargetAttributes = {
 					029E4E1A1B8B08B800E7BE4B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					029E4E331B8B091500E7BE4B = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -112,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				029E4E1A1B8B08B800E7BE4B /* Shellfish */,
+				029E4E331B8B091500E7BE4B /* Shellfish Content Blocker */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +200,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		029E4E321B8B091500E7BE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029E4E371B8B091500E7BE4B /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,7 +220,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		029E4E301B8B091500E7BE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029E4E391B8B091500E7BE4B /* ActionRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		029E4E3C1B8B091500E7BE4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 029E4E331B8B091500E7BE4B /* Shellfish Content Blocker */;
+			targetProxy = 029E4E3B1B8B091500E7BE4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		029E4E221B8B08B800E7BE4B /* Main.storyboard */ = {
@@ -248,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Shellfish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.open-bits.Shellfish";
@@ -259,10 +357,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Shellfish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.open-bits.Shellfish";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		029E4E3E1B8B091500E7BE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shellfish Content Blocker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.open-bits.Shellfish.Shellfish-Content-Blocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		029E4E3F1B8B091500E7BE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Shellfish Content Blocker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.open-bits.Shellfish.Shellfish-Content-Blocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -283,6 +404,15 @@
 			buildConfigurations = (
 				029E4E2E1B8B08B800E7BE4B /* Debug */,
 				029E4E2F1B8B08B800E7BE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		029E4E401B8B091500E7BE4B /* Build configuration list for PBXNativeTarget "Shellfish Content Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				029E4E3E1B8B091500E7BE4B /* Debug */,
+				029E4E3F1B8B091500E7BE4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

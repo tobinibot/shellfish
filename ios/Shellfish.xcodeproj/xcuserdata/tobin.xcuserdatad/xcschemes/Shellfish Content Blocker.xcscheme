@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0700"
-   version = "1.3">
+   wasCreatedForAppExtension = "YES"
+   version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -14,7 +15,21 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "022038A01B88BA3D00D1E1D3"
+               BlueprintIdentifier = "029E4E331B8B091500E7BE4B"
+               BuildableName = "Shellfish Content Blocker.appex"
+               BlueprintName = "Shellfish Content Blocker"
+               ReferencedContainer = "container:Shellfish.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "029E4E1A1B8B08B800E7BE4B"
                BuildableName = "Shellfish.app"
                BlueprintName = "Shellfish"
                ReferencedContainer = "container:Shellfish.xcodeproj">
@@ -32,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "022038A01B88BA3D00D1E1D3"
-            BuildableName = "Shellfish.app"
-            BlueprintName = "Shellfish"
+            BlueprintIdentifier = "029E4E331B8B091500E7BE4B"
+            BuildableName = "Shellfish Content Blocker.appex"
+            BlueprintName = "Shellfish Content Blocker"
             ReferencedContainer = "container:Shellfish.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -43,19 +58,20 @@
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "022038A01B88BA3D00D1E1D3"
+            BlueprintIdentifier = "029E4E1A1B8B08B800E7BE4B"
             BuildableName = "Shellfish.app"
             BlueprintName = "Shellfish"
             ReferencedContainer = "container:Shellfish.xcodeproj">
@@ -69,12 +85,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      debugDocumentVersioning = "YES">
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "022038A01B88BA3D00D1E1D3"
+            BlueprintIdentifier = "029E4E1A1B8B08B800E7BE4B"
             BuildableName = "Shellfish.app"
             BlueprintName = "Shellfish"
             ReferencedContainer = "container:Shellfish.xcodeproj">
