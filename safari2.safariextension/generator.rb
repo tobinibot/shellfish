@@ -27,11 +27,11 @@ Dir.glob('domains/*.css').each do |file|
   parser.load_uri!("file:#{file}")
 
   parser.each_selector() do |selector, declarations, specificity|
-    domain_name = file.sub(/^.*\//, '').sub(/\.css$/, '').gsub(/\./, '\\.')
     desktop_only = selector.end_with?(':desktop-only')
     mobile_only = selector.end_with?(':mobile-only')
     selector = selector.sub(/:mobile-only$/, '').sub(/:desktop-only$/, '')
 
+    domain_name = file.sub(/^.*\//, '').sub(/\.css$/, '')
 
     hash = {
       action: {
@@ -39,7 +39,9 @@ Dir.glob('domains/*.css').each do |file|
         type: 'css-display-none'
       },
       trigger: {
-        'url-filter' => ".*#{domain_name}/.*"
+        'url-filter' => '.*',
+        'if-domain' => domain_name,
+        'resource-type' => 'document'
       }
     }
 
