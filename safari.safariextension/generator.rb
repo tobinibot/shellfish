@@ -4,8 +4,29 @@ require 'FileUtils'
 
 debug = ARGV.length > 0 && ARGV.include?('-d')
 
-puts 'processing "standard.css"'
+puts 'processing "common-sense.css"'
 parser = CssParser::Parser.new
+parser.load_uri!('file:common-sense.css')
+
+desktop_array = []
+mobile_array = []
+
+parser.each_selector() do |selector, declarations, specificity|
+  hash = {
+    action: {
+      selector: selector,
+      type: 'css-display-none'
+    },
+    trigger: {
+      'url-filter' => '.*'
+    }
+  }
+  desktop_array << hash
+  mobile_array << hash
+end
+
+puts 'processing "standard.css"'
+parser = CssParser::Parser.new # make sure we reset the parser
 parser.load_uri!('file:standard.css')
 
 desktop_array = []
