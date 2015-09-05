@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SafariServices
 
 class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		
+		SFContentBlockerManager.reloadContentBlockerWithIdentifier("com.open-bits.Shellfish.Shellfish-Content-Blocker", completionHandler: nil)
+		
 	}
 
 	override func didReceiveMemoryWarning() {
