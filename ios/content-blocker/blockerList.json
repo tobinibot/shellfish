@@ -1504,123 +1504,12 @@
   },
   {
     "action": {
-      "selector": ".social-share",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "bloomberg.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social-share-with-slideout",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "bloomberg.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".share",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "businessinsider.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": "#share_control",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "buzzfeed.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".share-box",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "buzzfeed.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
       "selector": ".bottom_shares",
       "type": "css-display-none"
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "buzzfeed.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": "#social_bar_top_gig_containerParent",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "cnbc.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": "#social-tools-panel_gig_containerParent",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "cnbc.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": "#social-tools-panel",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "cnbc.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": "#social_bar_top",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "cnbc.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": "#social-tools-panel",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "cnbc.com",
-      "resource-type": "document"
+      "if-domain": "buzzfeed.com"
     }
   },
   {
@@ -1630,52 +1519,17 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "fedex.com",
-      "resource-type": "document"
+      "if-domain": "fedex.com"
     }
   },
   {
     "action": {
-      "selector": ".socialize",
+      "selector": ".Post-social-inner-block",
       "type": "css-display-none"
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "forbes.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social-expand-control",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "forbes.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".tweet-this",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "forbes.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": "#social_badges",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "huffingtonpost.com",
-      "resource-type": "document"
+      "if-domain": "firstlook.org"
     }
   },
   {
@@ -1685,19 +1539,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "huffingtonpost.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social-shares-wrap",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "mashable.com",
-      "resource-type": "document"
+      "if-domain": "huffingtonpost.com"
     }
   },
   {
@@ -1707,8 +1549,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "mashable.com",
-      "resource-type": "document"
+      "if-domain": "mashable.com"
     }
   },
   {
@@ -1718,8 +1559,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "mashable.com",
-      "resource-type": "document"
+      "if-domain": "mashable.com"
     }
   },
   {
@@ -1729,8 +1569,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "mashable.com",
-      "resource-type": "document"
+      "if-domain": "mashable.com"
     }
   },
   {
@@ -1740,19 +1579,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "mashable.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".article-shares-links",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "mashable.com",
-      "resource-type": "document"
+      "if-domain": "mashable.com"
     }
   },
   {
@@ -1762,19 +1589,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "medium.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".sharetools",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "nytimes.com",
-      "resource-type": "document"
+      "if-domain": "medium.com"
     }
   },
   {
@@ -1784,8 +1599,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "nytimes.com",
-      "resource-type": "document"
+      "if-domain": "nytimes.com"
     }
   },
   {
@@ -1795,19 +1609,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "nytimes.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": "#sharer",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "playboy.com",
-      "resource-type": "document"
+      "if-domain": "nytimes.com"
     }
   },
   {
@@ -1817,52 +1619,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "playboy.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".sharing-buttons",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "slate.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social-cluster",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "techcrunch.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social-share",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "techcrunch.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "theguardian.co.uk",
-      "resource-type": "document"
+      "if-domain": "playboy.com"
     }
   },
   {
@@ -1872,19 +1629,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "theguardian.co.uk",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "theguardian.com",
-      "resource-type": "document"
+      "if-domain": "theguardian.co.uk"
     }
   },
   {
@@ -1894,30 +1639,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "theguardian.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".article-share-tools",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "theonion.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".share-container",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "theonion.com",
-      "resource-type": "document"
+      "if-domain": "theguardian.com"
     }
   },
   {
@@ -1927,8 +1649,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "today.com",
-      "resource-type": "document"
+      "if-domain": "today.com"
     }
   },
   {
@@ -1938,30 +1659,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "today.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social-share-links",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "tutsplus.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".component-social-share",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "vanityfair.com",
-      "resource-type": "document"
+      "if-domain": "today.com"
     }
   },
   {
@@ -1971,8 +1669,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "washingtonpost.com",
-      "resource-type": "document"
+      "if-domain": "washingtonpost.com"
     }
   },
   {
@@ -1982,19 +1679,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "washingtonpost.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": "#sharing",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "wired.com",
-      "resource-type": "document"
+      "if-domain": "washingtonpost.com"
     }
   },
   {
@@ -2004,30 +1689,7 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "wsj.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "wsj.com",
-      "resource-type": "document"
-    }
-  },
-  {
-    "action": {
-      "selector": ".share-btns",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*",
-      "if-domain": "yahoo.com",
-      "resource-type": "document"
+      "if-domain": "wsj.com"
     }
   },
   {
