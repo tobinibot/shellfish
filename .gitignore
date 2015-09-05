@@ -8,3 +8,5 @@
 *.pem
 safari.safariextension/blocked-content-desktop.json
 safari.safariextension/blocked-content-mobile.json
+
+*.xcuserstate
