@@ -26,5 +26,7 @@
 .component-social-share,
 #sharing.
 .share-btns,
-.shareBar
+.shareBar,
+.social-hover,
+.social-buttons-js
 {display: none;}
