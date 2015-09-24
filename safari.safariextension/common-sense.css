@@ -24,7 +24,14 @@
 .article-share-tools,
 .social-share-links,
 .component-social-share,
-#sharing.
+#sharing,
 .share-btns,
-.shareBar
+.shareBar,
+#social-buttons,
+.social-options,
+#social_sharing_widgets,
+#sharing_container,
+.js-socialise-wrapper,
+#share-tools,
+.share-sidebar
 {display: none;}
