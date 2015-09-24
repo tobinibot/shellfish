@@ -4,12 +4,12 @@ require 'FileUtils'
 
 debug = ARGV.length > 0 && ARGV.include?('-d')
 
+desktop_array = []
+mobile_array = []
+
 puts 'processing "common-sense.css"'
 parser = CssParser::Parser.new
 parser.load_uri!('file:common-sense.css')
-
-desktop_array = []
-mobile_array = []
 
 parser.each_selector() do |selector, declarations, specificity|
   hash = {
@@ -28,9 +28,6 @@ end
 puts 'processing "standard.css"'
 parser = CssParser::Parser.new # make sure we reset the parser
 parser.load_uri!('file:standard.css')
-
-desktop_array = []
-mobile_array = []
 
 parser.each_selector() do |selector, declarations, specificity|
   hash = {
