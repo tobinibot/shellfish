@@ -1,6 +1,330 @@
 [
   {
     "action": {
+      "selector": ".share-buttons",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social-share",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social-share-with-slideout",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#share_control",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".share-box",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".share",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#floating-sharebar",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social-tools-panel",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social-tools-panel",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social_bar_top",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".socialize",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social-expand-control",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".tweet-this",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social_badges",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".article-shares-links",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social-shares-wrap",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".share-container",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".sharetools",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#sharer",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social-links",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".sharing-buttons",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social-cluster",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".article-share-tools",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social-share-links",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".component-social-share",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#sharing",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".share-btns",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".shareBar",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social-buttons",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social-options",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social_sharing_widgets",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#sharing_container",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".js-socialise-wrapper",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#share-tools",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".share-sidebar",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
       "selector": ".addthis_toolbox",
       "type": "css-display-none"
     },
@@ -1624,6 +1948,26 @@
   },
   {
     "action": {
+      "selector": ".sharethisawrp",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": "slashdot.org"
+    }
+  },
+  {
+    "action": {
+      "selector": "#newGigyaShareTop-Holder",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*",
+      "if-domain": "telegraph.co.uk"
+    }
+  },
+  {
+    "action": {
       "selector": ".js-sharecount",
       "type": "css-display-none"
     },
@@ -1722,6 +2066,15 @@
   {
     "action": {
       "selector": ".getsocial",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".gig-share-bar-container",
       "type": "css-display-none"
     },
     "trigger": {
