@@ -43,7 +43,6 @@ parser.each_selector() do |selector, declarations, specificity|
   mobile_array << hash
 end
 
-# domains
 puts 'processing css in "domains" folder'
 Dir.glob('domains/*.css').each do |file|
   parser = CssParser::Parser.new # make sure we reset the parser
@@ -72,7 +71,6 @@ Dir.glob('domains/*.css').each do |file|
   end
 end
 
-# components
 puts 'processing css in "components" folder'
 Dir.glob('components/*.css').each do |file|
   parser = CssParser::Parser.new # make sure we reset the parser
@@ -121,28 +119,6 @@ Dir.glob('components/*.json').each do |file|
     end
   end
 end
-
-# site_specific = [
-#     {filename: 'sites/guardian.css', url_filter: 'guardian\.co\.uk/'}
-# ]
-
-# site_specific.each do |site|
-#   parser = CssParser::Parser.new # make sure we reset the parser
-#   parser.load_uri!("file:#{site[:filename]}")
-#
-#   parser.each_selector() do |selector, declarations, specificity|
-#     hash = {
-#       action: {
-#         selector: selector,
-#         type: 'css-display-none'
-#       },
-#       trigger: {
-#         'url-filter' => ".*#{site[:url_filter]}.*"
-#       }
-#     }
-#     array << hash
-#   end
-# end
 
 puts 'building content blocker files'
 desktop_json = JSON.pretty_generate(desktop_array)
