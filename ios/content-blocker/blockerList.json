@@ -1,124 +1,7 @@
 [
   {
     "action": {
-      "selector": ".share-buttons",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social-share",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social-share-with-slideout",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": "#share_control",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": ".share-box",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": ".share",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": "#floating-sharebar",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": "#social-tools-panel",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": "#social-tools-panel",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": "#social_bar_top",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": ".socialize",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social-expand-control",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": ".tweet-this",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": "#social_badges",
+      "selector": ".article-share-tools",
       "type": "css-display-none"
     },
     "trigger": {
@@ -136,7 +19,52 @@
   },
   {
     "action": {
-      "selector": ".social-shares-wrap",
+      "selector": ".component-social-share",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".inline-sharebar",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".js-socialise-wrapper",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".share-box",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".share-btns",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".share-buttons",
       "type": "css-display-none"
     },
     "trigger": {
@@ -154,25 +82,34 @@
   },
   {
     "action": {
+      "selector": ".share-sidebar",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".share",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".shareBar",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
       "selector": ".sharetools",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": "#sharer",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": ".social-links",
       "type": "css-display-none"
     },
     "trigger": {
@@ -199,7 +136,7 @@
   },
   {
     "action": {
-      "selector": ".social",
+      "selector": ".social-expand-control",
       "type": "css-display-none"
     },
     "trigger": {
@@ -208,7 +145,7 @@
   },
   {
     "action": {
-      "selector": ".article-share-tools",
+      "selector": ".social-icons",
       "type": "css-display-none"
     },
     "trigger": {
@@ -217,52 +154,7 @@
   },
   {
     "action": {
-      "selector": ".social-share-links",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": ".component-social-share",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": "#sharing",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": ".share-btns",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": ".shareBar",
-      "type": "css-display-none"
-    },
-    "trigger": {
-      "url-filter": ".*"
-    }
-  },
-  {
-    "action": {
-      "selector": "#social-buttons",
+      "selector": ".social-links",
       "type": "css-display-none"
     },
     "trigger": {
@@ -280,7 +172,7 @@
   },
   {
     "action": {
-      "selector": "#social_sharing_widgets",
+      "selector": ".social-share-links",
       "type": "css-display-none"
     },
     "trigger": {
@@ -289,7 +181,7 @@
   },
   {
     "action": {
-      "selector": "#sharing_container",
+      "selector": ".social-share-with-slideout",
       "type": "css-display-none"
     },
     "trigger": {
@@ -298,7 +190,70 @@
   },
   {
     "action": {
-      "selector": ".js-socialise-wrapper",
+      "selector": ".social-share",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social-shares-wrap",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social-wrapper",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".social",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".socialize",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": ".tweet-this",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#floating-sharebar",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#share_control",
       "type": "css-display-none"
     },
     "trigger": {
@@ -316,7 +271,97 @@
   },
   {
     "action": {
-      "selector": ".share-sidebar",
+      "selector": "#sharer",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#sharing_container",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#sharing",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social_badges",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social_bar_top",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social-icons",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social_icons",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social_sharing_widgets",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social-buttons",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social_buttons",
+      "type": "css-display-none"
+    },
+    "trigger": {
+      "url-filter": ".*"
+    }
+  },
+  {
+    "action": {
+      "selector": "#social-tools-panel",
       "type": "css-display-none"
     },
     "trigger": {
@@ -1833,7 +1878,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "buzzfeed.com"
+      "if-domain": [
+        "buzzfeed.com"
+      ]
     }
   },
   {
@@ -1843,7 +1890,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "fedex.com"
+      "if-domain": [
+        "fedex.com"
+      ]
     }
   },
   {
@@ -1853,7 +1902,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "firstlook.org"
+      "if-domain": [
+        "firstlook.org"
+      ]
     }
   },
   {
@@ -1863,7 +1914,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "huffingtonpost.com"
+      "if-domain": [
+        "huffingtonpost.com"
+      ]
     }
   },
   {
@@ -1873,7 +1926,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "mashable.com"
+      "if-domain": [
+        "mashable.com"
+      ]
     }
   },
   {
@@ -1883,7 +1938,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "mashable.com"
+      "if-domain": [
+        "mashable.com"
+      ]
     }
   },
   {
@@ -1893,7 +1950,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "mashable.com"
+      "if-domain": [
+        "mashable.com"
+      ]
     }
   },
   {
@@ -1903,7 +1962,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "mashable.com"
+      "if-domain": [
+        "mashable.com"
+      ]
     }
   },
   {
@@ -1913,7 +1974,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "medium.com"
+      "if-domain": [
+        "medium.com"
+      ]
     }
   },
   {
@@ -1923,7 +1986,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "nytimes.com"
+      "if-domain": [
+        "nytimes.com"
+      ]
     }
   },
   {
@@ -1933,7 +1998,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "nytimes.com"
+      "if-domain": [
+        "nytimes.com"
+      ]
     }
   },
   {
@@ -1943,7 +2010,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "playboy.com"
+      "if-domain": [
+        "playboy.com"
+      ]
     }
   },
   {
@@ -1953,7 +2022,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "slashdot.org"
+      "if-domain": [
+        "slashdot.org"
+      ]
     }
   },
   {
@@ -1963,7 +2034,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "telegraph.co.uk"
+      "if-domain": [
+        "telegraph.co.uk"
+      ]
     }
   },
   {
@@ -1973,7 +2046,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "theguardian.co.uk"
+      "if-domain": [
+        "theguardian.co.uk"
+      ]
     }
   },
   {
@@ -1983,7 +2058,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "theguardian.com"
+      "if-domain": [
+        "theguardian.com"
+      ]
     }
   },
   {
@@ -1993,7 +2070,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "today.com"
+      "if-domain": [
+        "today.com"
+      ]
     }
   },
   {
@@ -2003,7 +2082,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "today.com"
+      "if-domain": [
+        "today.com"
+      ]
     }
   },
   {
@@ -2013,7 +2094,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "washingtonpost.com"
+      "if-domain": [
+        "washingtonpost.com"
+      ]
     }
   },
   {
@@ -2023,7 +2106,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "washingtonpost.com"
+      "if-domain": [
+        "washingtonpost.com"
+      ]
     }
   },
   {
@@ -2033,7 +2118,9 @@
     },
     "trigger": {
       "url-filter": ".*",
-      "if-domain": "wsj.com"
+      "if-domain": [
+        "wsj.com"
+      ]
     }
   },
   {
