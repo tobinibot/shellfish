@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Tobin Juday</string>
 	<key>Builder Version</key>
-	<string>11601.1.32.10</string>
+	<string>11601.1.56</string>
 	<key>CFBundleDisplayName</key>
 	<string>Shellfish</string>
 	<key>CFBundleIdentifier</key>
@@ -23,6 +23,8 @@
 	</dict>
 	<key>Description</key>
 	<string>Hides all of those pesky “share this article” buttons all over your Internet.</string>
+	<key>DeveloperIdentifier</key>
+	<string>F3MCBN72UD</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Website</key>
