@@ -62,7 +62,7 @@ Dir.glob('domains/*.css').each do |file|
       },
       trigger: {
         'url-filter' => '.*',
-        'if-domain' => domain_name,
+        'if-domain' => [domain_name],
       }
     }
 
