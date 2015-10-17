@@ -120,7 +120,46 @@ Dir.glob('components/*.json').each do |file|
   end
 end
 
-puts 'building content blocker files'
+puts 'processing json in "components" folder'
+Dir.glob('components/*.json').each do |file|
+  filters = JSON.parse(File.read(file))
+
+  filters.each_key do |resource_type|
+    filters[resource_type].each do |filter_string|
+      hash = {
+        action: {
+          type: 'block'
+        },
+        trigger: {
+          'url-filter' => "#{filter_string}",
+          'resource-type' => ["#{resource_type}"],
+          'load-type' => ['first-party', 'third-party']
+        }
+      }
+      desktop_array << hash
+      mobile_array << hash
+    end
+  end
+end
+
+puts 'processing "bugs.css"'
+parser = CssParser::Parser.new
+parser.load_uri!('file:bugs.css')
+
+parser.each_selector() do |selector, declarations, specificity|
+  hash = {
+    action: {
+      selector: selector,
+      type: 'css-display-none'
+    },
+    trigger: {
+      'url-filter' => '.*'
+    }
+  }
+  desktop_array << hash
+  mobile_array << hash
+end
+
 desktop_json = JSON.pretty_generate(desktop_array)
 mobile_json = JSON.pretty_generate(mobile_array)
 if debug
