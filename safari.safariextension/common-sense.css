@@ -22,6 +22,7 @@
 .shareBar,
 .sharetools,
 .sharing,
+.sharing-tools,
 .sharing-buttons,
 .social_btn,
 .social_counters,
@@ -29,6 +30,7 @@
 .social-expand-control,
 .social-hover,
 .social-icons,
+.social-likes,
 .social-links,
 .social-options,
 .social-share-links,
@@ -37,10 +39,12 @@
 .social-shares-wrap,
 .social-wrapper,
 .social,
+.sociallinks,
 .socialize,
 .tweet-this,
 #article-tools,
 #floating-sharebar,
+#shareBar,
 #share_control,
 #share-tools,
 #sharer,
@@ -54,5 +58,6 @@
 #social_sharing_widgets,
 #social-buttons,
 #social_buttons,
-#social-tools-panel
+#social-tools-panel,
+#sticky_social
 {display: none;}

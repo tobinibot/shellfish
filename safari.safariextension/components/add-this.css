@@ -1,2 +1,4 @@
-.addthis-smartlayers
+.addthis-smartlayers,
+.social-share-title, /* ? */
+.social-share-button /* ? */
 {display: none;}
